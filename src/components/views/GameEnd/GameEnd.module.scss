@@ -1,0 +1,29 @@
+@import "../../../variables.scss";
+
+.root {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.title {
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #906C3D;
+}
+
+.statistics {
+  color: $color-text-light;
+}
+
+.bottom {
+  padding: 1rem 0;
+  text-align: center;
+
+  .buttonAccept {
+    width: 100%;
+  }
+}

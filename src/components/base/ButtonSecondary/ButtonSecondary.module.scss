@@ -1,0 +1,11 @@
+@import "../../../variables.scss";
+
+.root {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: $color-text-light;
+  background: #102626;
+}

@@ -1,0 +1,72 @@
+@import "../../../variables.scss";
+
+.root {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.top {
+  margin: 1.5rem 0;
+  text-align: center;
+
+  .labelRound {
+    margin: 0 1rem;
+  }
+}
+
+.row {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 1.5rem 0;
+  justify-items: center;
+}
+
+.statistics {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 1rem;
+
+  .counter {
+    display: grid;
+    grid-gap: 1rem;
+  }
+
+  .wastes {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+
+    .item {
+      width: 1fr;
+      background: #102626;
+    }
+  }
+}
+
+.bottom {
+  display: grid;
+  height: 100%;
+  padding-top: 1rem;
+  text-align: center;
+  grid-template-rows: 1fr 3rem;
+  margin: 0 -1rem;
+
+  .buttonEndGame {
+    align-self: flex-start;
+  }
+
+  .tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0 2rem;
+    align-content: center;
+    justify-items: center;
+    background-color: #132C2C;
+    padding: 0.25rem 1.5rem;
+  }
+}
