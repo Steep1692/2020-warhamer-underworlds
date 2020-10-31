@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Steep1692/warhamer-underworlds/static/css/main.b4980aee.chunk.css",
+    "main.js": "/Steep1692/warhamer-underworlds/static/js/main.a7ea0f80.chunk.js",
+    "main.js.map": "/Steep1692/warhamer-underworlds/static/js/main.a7ea0f80.chunk.js.map",
+    "runtime-main.js": "/Steep1692/warhamer-underworlds/static/js/runtime-main.77eb5120.js",
+    "runtime-main.js.map": "/Steep1692/warhamer-underworlds/static/js/runtime-main.77eb5120.js.map",
+    "static/js/2.3e866aa8.chunk.js": "/Steep1692/warhamer-underworlds/static/js/2.3e866aa8.chunk.js",
+    "static/js/2.3e866aa8.chunk.js.map": "/Steep1692/warhamer-underworlds/static/js/2.3e866aa8.chunk.js.map",
+    "static/js/3.3ab2fc6e.chunk.js": "/Steep1692/warhamer-underworlds/static/js/3.3ab2fc6e.chunk.js",
+    "static/js/3.3ab2fc6e.chunk.js.map": "/Steep1692/warhamer-underworlds/static/js/3.3ab2fc6e.chunk.js.map",
+    "index.html": "/Steep1692/warhamer-underworlds/index.html",
+    "static/css/main.b4980aee.chunk.css.map": "/Steep1692/warhamer-underworlds/static/css/main.b4980aee.chunk.css.map",
+    "static/js/2.3e866aa8.chunk.js.LICENSE.txt": "/Steep1692/warhamer-underworlds/static/js/2.3e866aa8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77eb5120.js",
+    "static/js/2.3e866aa8.chunk.js",
+    "static/css/main.b4980aee.chunk.css",
+    "static/js/main.a7ea0f80.chunk.js"
+  ]
+}
