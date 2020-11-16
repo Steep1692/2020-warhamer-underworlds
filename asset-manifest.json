@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/warhamer-underworlds/static/css/main.581cbbdd.chunk.css",
-    "main.js": "/warhamer-underworlds/static/js/main.8f16b4c7.chunk.js",
-    "main.js.map": "/warhamer-underworlds/static/js/main.8f16b4c7.chunk.js.map",
-    "runtime-main.js": "/warhamer-underworlds/static/js/runtime-main.13689305.js",
-    "runtime-main.js.map": "/warhamer-underworlds/static/js/runtime-main.13689305.js.map",
-    "static/js/2.82978da9.chunk.js": "/warhamer-underworlds/static/js/2.82978da9.chunk.js",
-    "static/js/2.82978da9.chunk.js.map": "/warhamer-underworlds/static/js/2.82978da9.chunk.js.map",
-    "static/js/3.9dbfafe3.chunk.js": "/warhamer-underworlds/static/js/3.9dbfafe3.chunk.js",
-    "static/js/3.9dbfafe3.chunk.js.map": "/warhamer-underworlds/static/js/3.9dbfafe3.chunk.js.map",
+    "main.css": "/warhamer-underworlds/static/css/main.8ff9e76f.chunk.css",
+    "main.js": "/warhamer-underworlds/static/js/main.7839c52a.chunk.js",
+    "main.js.map": "/warhamer-underworlds/static/js/main.7839c52a.chunk.js.map",
+    "runtime-main.js": "/warhamer-underworlds/static/js/runtime-main.d607d94d.js",
+    "runtime-main.js.map": "/warhamer-underworlds/static/js/runtime-main.d607d94d.js.map",
+    "static/js/2.7baaa13b.chunk.js": "/warhamer-underworlds/static/js/2.7baaa13b.chunk.js",
+    "static/js/2.7baaa13b.chunk.js.map": "/warhamer-underworlds/static/js/2.7baaa13b.chunk.js.map",
+    "static/js/3.9aa12e9b.chunk.js": "/warhamer-underworlds/static/js/3.9aa12e9b.chunk.js",
+    "static/js/3.9aa12e9b.chunk.js.map": "/warhamer-underworlds/static/js/3.9aa12e9b.chunk.js.map",
     "index.html": "/warhamer-underworlds/index.html",
-    "static/css/main.581cbbdd.chunk.css.map": "/warhamer-underworlds/static/css/main.581cbbdd.chunk.css.map",
-    "static/js/2.82978da9.chunk.js.LICENSE.txt": "/warhamer-underworlds/static/js/2.82978da9.chunk.js.LICENSE.txt",
+    "static/css/main.8ff9e76f.chunk.css.map": "/warhamer-underworlds/static/css/main.8ff9e76f.chunk.css.map",
+    "static/js/2.7baaa13b.chunk.js.LICENSE.txt": "/warhamer-underworlds/static/js/2.7baaa13b.chunk.js.LICENSE.txt",
     "static/media/getFetch.cjs": "/warhamer-underworlds/static/media/getFetch.d7d6010d.cjs"
   },
   "entrypoints": [
-    "static/js/runtime-main.13689305.js",
-    "static/js/2.82978da9.chunk.js",
-    "static/css/main.581cbbdd.chunk.css",
-    "static/js/main.8f16b4c7.chunk.js"
+    "static/js/runtime-main.d607d94d.js",
+    "static/js/2.7baaa13b.chunk.js",
+    "static/css/main.8ff9e76f.chunk.css",
+    "static/js/main.7839c52a.chunk.js"
   ]
 }
