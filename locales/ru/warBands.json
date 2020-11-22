@@ -6,48 +6,48 @@
       "color": "#810a00",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Khorne_Thumb_5.png",
           "name": "Garrek Gorebeard",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Khorne_Thumb_5.png",
           "description": "Garrek took over as chieftain of his murderous band after biting out the throat of a rival. The blood that flowed forth to stain and mat his beard earned him his fearsome title.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Garrek_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Garrek-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_garreks_reavers_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_garreks_reavers_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Khorne_Thumb_2.png",
           "name": "Karsus the Chained",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Khorne_Thumb_2.png",
           "description": "Karsus was once a slave, until he used his shackles to choke the life from his masters. He bears his chains still, attached to a many-notched axe that has claimed countless skulls for Khorne.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Karsus_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Karsus-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_garreks_reavers_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_garreks_reavers_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Khorne_Thumb_1.png",
           "name": "Blooded  Saek",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Khorne_Thumb_1.png",
           "description": "Saek has lost himself entirely to the red rage of Khorne. The only sounds that pass his lips are bestial growls, and the blood-chilling screams let loose as he hurls himself into the thick of battle.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Saek_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Saek-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_garreks_reavers_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_garreks_reavers_3_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Khorne_Thumb_4.png",
           "name": "Targor",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Khorne_Thumb_4.png",
           "description": "Targor is a recent addition to the ranks of Garrek’s killers, a member of a conquered tribe who chose to walk the path of skulls rather than suffer a slow, torturous death.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Targor_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Targor-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_garreks_reavers_4.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_garreks_reavers_4_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Khorne_Thumb_3.png",
           "name": "Arnulf",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Khorne_Thumb_3.png",
           "description": "No move is too dishonorable for Arnulf, who enjoys felling foes with a rapid strike of his ritual dagger.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Arnulf_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Arnulf-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_garreks_reavers_5.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_garreks_reavers_5_inspired.jpg"
           }
         }
       ]
@@ -58,30 +58,30 @@
       "color": "#01077c",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Stormcast_Thumb_3.png",
           "name": "Severin Steelheart",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Stormcast_Thumb_3.png",
           "description": "Liberator-Prime Steelheart is a veteran of countless battles, and a charismatic and respected leader. His warriors would follow him even to the gates of the Blood God’s citadel.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Steelheart_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Steelheart-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_steelhearts_champions_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_steelhearts_champions_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Stormcast_Thumb_2.png",
           "name": "Angharad Brightshield",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Stormcast_Thumb_2.png",
           "description": "In another life Angharad was a smith, whose master-crafted blades were desired by warriors far and wide. Now she puts her hammer to the task of purging heathens and savages, a calling she has joyfully embraced.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Brightshield_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Brighshield-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_steelhearts_champions_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_steelhearts_champions_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Stormcast_Thumb_1.png",
           "name": "Obryn the Bold",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Stormcast_Thumb_1.png",
           "description": "A bull-hearted giant of a man, Obryn was always the first to laugh and make jest – until his third Reforging. Now he speaks little, and only seems at peace in the heat of battle.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Obryn_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Obryn-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_steelhearts_champions_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_steelhearts_champions_3_inspired.jpg"
           }
         }
       ]
@@ -92,82 +92,82 @@
       "color": "#34034f",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skellies_Thumb_3.png",
           "name": "The Sepulchral Warden",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skellies_Thumb_3.png",
           "description": "The Sepulchral Warden was once Lord Marshal of Shadespire and leads its forces still, gifted with strange necromantic powers by Nagash in return for defending his city.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Deathrattle-Warden_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Deathrattle-Warden-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_sepulchral_guard_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_sepulchral_guard_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skellies_Thumb_4.png",
           "name": "The Prince of Dust",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skellies_Thumb_4.png",
           "description": "Centuries ago the Prince of Dust commanded vast legions and decided the fate of kingdoms on a whim. Now, he is but another tortured servant of the Great Necromancer.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Deathrattle-Prince_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Deathrattle-Prince-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_sepulchral_guard_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_sepulchral_guard_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skellies_Thumb_2.png",
           "name": "The Harvester",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skellies_Thumb_2.png",
           "description": "In life, the Harvester was a humble farmer &#8211; now, in his afterlife, he reaps a more sinister crop.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Deathrattle-Harvester_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Deathrattle-Harvester-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_sepulchral_guard_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_sepulchral_guard_3_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skellies_Thumb_1.png",
           "name": "The Champion",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skellies_Thumb_1.png",
           "description": "Though the Champion retains fractured memories of countless battles, he cannot recall whether he fought for duty, honour or coin.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Deathrattle-Champion_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Deathrattle-Champion-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_sepulchral_guard_4.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_sepulchral_guard_4_inspired.jpg"
           }
         }
       ]
     },
     {
-      "name": "Ironskull&#8217;s Boyz",
+      "name": "Ironskull’s Boyz",
       "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2017/09/Shadespire_IronjawzSymbolWeb-150x150.png",
       "color": "#405800",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawz_Thumb_2.png",
           "name": "Gurzag Ironskull",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawz_Thumb_2.png",
           "description": "Gurzag has come to appreciate the Mirrored City, for in all the years he has spent trapped here, he has never run out of things to smash.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawx-Gurzag_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawz-Gurzak-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_ironskulls_boyz_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_ironskulls_boyz_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawz_Thumb_3.png",
           "name": "Bonekutta",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawz_Thumb_3.png",
           "description": "Bonekutta might not be the most cunning of orruks, but he makes up for his lack of wits with a seemingly boundless capacity for gleeful violence.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawx-Bonekutta_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawx-Bonekutta-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_ironskulls_boyz_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_ironskulls_boyz_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawz_Thumb_4.png",
           "name": "Basha",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawz_Thumb_4.png",
           "description": "Even by the low standards of orruks, Basha is particularly lacking in subtlety, bludgeoning his foes to smithereens in a hail of blows.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawz-Basha_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Inronjawz-Basha-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_ironskulls_boyz_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_ironskulls_boyz_3_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawz_Thumb_1.png",
           "name": "Hakka",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawz_Thumb_1.png",
           "description": "Hakka aspires to lead his own warband one day &#8211; after all, bosses get the best loot.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawz-Hakka_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawz-Hakka-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_ironskulls_boyz_4.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_ironskulls_boyz_4_inspired.jpg"
           }
         }
       ]
@@ -178,91 +178,91 @@
       "color": "#ff7700",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fyreslayers_Thumb_4.png",
           "name": "Fjul-Grimnir",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fyreslayers_Thumb_4.png",
           "description": "Long ago the Fyreslayers of Vostarg lodge failed in their oaths to protect the city of Shadespire. Fjul-Grimnir, a former Runefather, sacrificed his birthright to enter the Mirrored City, end the curse and restore the honour of his people.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Grimnir_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Grimnir-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_the_chosen_axes_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_the_chosen_axes_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fyreslayers_Thumb_2.png",
           "name": "Tefk Flamebearer",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fyreslayers_Thumb_2.png",
           "description": "Tefk is Fjul-Grimnir’s loyal right hand. Even long years spent traversing the nightmarish labyrinth of Shadespire have not dulled his ebullient spirit.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Tefk_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Tefk-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_the_chosen_axes_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_the_chosen_axes_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fyreslayers_Thumb_3.png",
           "name": "Mad Maegrim",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fyreslayers_Thumb_3.png",
           "description": "Maegrim was always a little unhinged, even before he took a gargant’s hurled boulder to the head. He might be unpredictable, and occasionally loses himself to battle frenzy, but Fjul-Grimnir has never doubted Maegrim’s loyalty or selfless bravery.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Maegrim_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Maegrim-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_the_chosen_axes_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_the_chosen_axes_3_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fyreslayers_Thumb_1.png",
           "name": "Vol Orrukbane",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fyreslayers_Thumb_1.png",
           "description": "The eldest of Fjul-Grimnir’s band, Vol Orrukbane is a talespinner and war-chanter. He enjoys nothing more than bellowing songs of glory and heroism while he carves into Fjul-Grimnir’s foes with his great axe.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Vol_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Vol-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_the_chosen_axes_4.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_the_chosen_axes_4_inspired.jpg"
           }
         }
       ]
     },
     {
-      "name": "Spiteclaw&#8217;s Swarm",
+      "name": "Spiteclaw’s Swarm",
       "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Shadespire_SkavenSymbolWeb-150x150.png",
       "color": "#914e01",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Skaven-CardArt-SpiteclawSkaven.png",
           "name": "Skritch Spiteclaw",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Skaven-CardArt-SpiteclawSkaven.png",
           "description": "Warlord Skritch Spiteclaw leads a particularly murderous and spiteful band through the Mirrored City, searching for artefacts and trinkets to loot, and an escape route by which he can claw his way to freedom.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skaven-Skritch_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skaven-Skritch-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_spiteclaws_swarm_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_spiteclaws_swarm_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Skaven-CardArt-KrrkSkaven.png",
           "name": "Krrk the Almost-trusted",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Skaven-CardArt-KrrkSkaven.png",
           "description": "Krrk is Spiteclaw’s second in command – at least until his master meets with some kind of unfortunate accident. His sadistic cruelty is impressive even for a skaven, as any of Spiteclaw’s lowly pack rats can attest.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skaven-Krrk_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skaven-Krrk-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_spiteclaws_swarm_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_spiteclaws_swarm_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Skaven-CardArt-LurkingSkaven.png",
           "name": "Lurking Skaven",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Skaven-CardArt-LurkingSkaven.png",
           "description": "This skulking killer darts from the shadows to drive his twin blades into the back of his victim, before skittering out of harm’s reach – a quintessentially skaven approach to combat.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skaven-Lurking_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skaven-Lurking-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_spiteclaws_swarm_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_spiteclaws_swarm_3_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Skaven-CardArt-HungeringSkaven.png",
           "name": "Hungering Skaven",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Skaven-CardArt-HungeringSkaven.png",
           "description": "Some skaven develop a voracious hunger for raw flesh that cannot be sated. In battle, this manifests as a ravenous madness. The frenzied swipes of their crude weapons can be just as deadly to their own kind as to their intended prey.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skaven-Hungering_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skaven-Hungering-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_spiteclaws_swarm_4.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_spiteclaws_swarm_4_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Skaven-CardArt-FesteringSkaven.png",
           "name": "Festering Skaven",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Skaven-CardArt-FesteringSkaven.png",
           "description": "The Great Horned Rat has blessed this lowly pack rat with a bounty of festering boils, rashes and buboes. His weapons are similarly encrusted with foul-smelling grime.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skaven-Featering_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skaven-Festering-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_spiteclaws_swarm_5.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_spiteclaws_swarm_5_inspired.jpg"
           }
         }
       ]
@@ -273,30 +273,30 @@
       "color": "#033f99",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/04/Farstriders-CardArt-EagleEye.png",
           "name": "Sanson Farstrider",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/04/Farstriders-CardArt-EagleEye.png",
           "description": "It is said that even if he were to find himself in the halls of the Crystal Labyrinth, Farstrider would find a way free, such is his supreme talent for wayfinding.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Farstriders-Farstrider_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Farstriders-Farstrider-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_the_farstriders_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_the_farstriders_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/04/Farstriders-CardArt-Farstrider.png",
           "name": "Almeric Eagle-Eye",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/04/Farstriders-CardArt-Farstrider.png",
           "description": "The solemn and reserved warrior known as Eagle-Eye has an almost preternatural sense for danger, which has saved the lives of his companions on countless occasions.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Farstriders-Eagle-Eye_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Farstriders-Eagle-Eye-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_the_farstriders_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_the_farstriders_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/04/Farstriders-CardArt-Swiftblade.png",
           "name": "Elias Swiftblade",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/04/Farstriders-CardArt-Swiftblade.png",
           "description": "In his mortal life, Swiftblade was a wandering duellist, a master of the sword who cut down countless champions of the Dark Gods.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Farstriders-Swiftblade_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Farstriders-Switblade-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_the_farstriders_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_the_farstriders_3_inspired.jpg"
           }
         }
       ]
@@ -307,73 +307,73 @@
       "color": "#e20404",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends_Thumb_4.png",
           "name": "Magore Redhand",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends_Thumb_4.png",
           "description": "A macabre transformation came over Redhand during a battle with the hated Stormcast Eternals, a truly mighty gift from Khorne. A slavering daemonic maw erupted from his stomach, decapitating the Lord-Castellant about to lay him low.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends-Magore_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends-Magore-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_magores_fiends_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_magores_fiends_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends_Thumb_3.png",
           "name": "Riptooth",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends_Thumb_3.png",
           "description": "Gifted to Magore Redhand’s warband by Khorne as a reward for their grisly devotion, Riptooth hunts the foes of the Blood God with relentless fury.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends-Riptooth_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends-Riptooth-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_magores_fiends_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_magores_fiends_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends_Thumb_2.png",
           "name": "Ghartok Flayskull",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends_Thumb_2.png",
           "description": "Ghartok Flayskull revels in dispatching enemy champions, cutting down his foes with focused, unrelenting assaults.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends-Ghartok_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends-Ghartok-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_magores_fiends_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_magores_fiends_3_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends_Thumb_1.png",
           "name": "Zharkus the Bloodsighted",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends_Thumb_1.png",
           "description": "Zharkus is utterly lost to Khorne’s rage, screaming and drooling as he carves his foes apart in a hail of crazed &#8211; yet brutally precise &#8211; blows.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends-Zharkus_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends-Zharkus-Inspired_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_magores_fiends_4.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_magores_fiends_4_inspired.jpg"
           }
         }
       ]
     },
     {
-      "name": "Stormsire&#8217;s Cursebreakers",
+      "name": "Stormsire’s Cursebreakers",
       "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/09/Warband-Icons-Sacrosanct250x250-150x150.png",
       "color": "#1f8bc1",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sacrosanct_Thumb_1.png",
           "name": "Averon Stormsire",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sacrosanct_Thumb_1.png",
           "description": "A specialist in the breaking of curses and the sundering of dark enchantments, Stormsire is one of the God-King’s most trusted arcane agents.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sacrosanct-Stormsire.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sacrosanct-Stormsire-INS.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_stormsires_cursebreakers_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_stormsires_cursebreakers_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sacrosanct_Thumb_2.png",
           "name": "Ammis Dawnguard",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sacrosanct_Thumb_2.png",
           "description": "Ammis treats her role in the Sacrosanct Chambers with holy reverence, fighting furiously to bring the spirits of fallen heroes to their rightful place at the God-King&#8217;s side.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sacrosanct-Dawnguard.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sacrosanct-Dawnguard-INS.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_stormsires_cursebreakers_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_stormsires_cursebreakers_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sacrosanct_Thumb_3.png",
           "name": "Rastus the Charmed",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sacrosanct_Thumb_3.png",
           "description": "In battle, Rastus The Charmed cuts the enemies of Order down with a merciless fervour born of fathomless contempt.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sacrosanct-Rastus.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sacrosanct-Rastus-INS.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_stormsires_cursebreakers_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_stormsires_cursebreakers_3_inspired.jpg"
           }
         }
       ]
@@ -384,91 +384,91 @@
       "color": "#7a8277",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/09/Nighthaunt-BriarQueenArt.png",
           "name": "Briar Queen",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/09/Nighthaunt-BriarQueenArt.png",
           "description": "The Briar Queen – nemesis of the cursed city of Shadespire – is tasked with claiming certain souls who have cheated Nagash.\nWith the aid of her spectral army – the Thorns of the Briar Queen – she visits each of the Mortal Realms, always bringing back her target’s soul.\nBetween missions the Briar Queen returns to Shadespire, for her need for vengeance here remains unsatisfied.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt-BriarQueen.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt-BriarQueen-INS.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_thorns_of_the_briar_queen_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_thorns_of_the_briar_queen_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt_Thumb_1.png",
           "name": "Varclav the Cruel",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt_Thumb_1.png",
           "description": "Varclav the Cruel is the Briar Queen’s majordomo, an infamously sadistic gheist who was formerly the high-warden of the Nightvault until he himself was imprisoned for a string of vile murders.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt-Varclav.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt-Varclav-INS.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_thorns_of_the_briar_queen_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_thorns_of_the_briar_queen_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt_Thumb_2.png",
           "name": "The Ever-Hanged",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt_Thumb_2.png",
           "description": "Greatest of the Briar Queen&#8217;s Chainrasps is the Ever-hanged, the spectral echo of a serial murderer, around whose neck still hangs the gallows-rope that ended his reign of terror.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt-EverHanged.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt-EverHanged-INS.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_thorns_of_the_briar_queen_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_thorns_of_the_briar_queen_3_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt_Thumb_3.png",
           "name": "Chainrasp",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt_Thumb_3.png",
           "description": "Nagash’s final gift to the Briar Queen was an army of malicious spirits with which to see his will done.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt-Chainrasp4.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt-Chainrasp4-INS.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_thorns_of_the_briar_queen_4.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_thorns_of_the_briar_queen_4_inspired.jpg"
           }
         }
       ]
     },
     {
-      "name": "Zarbag&#8217;s Gitz",
+      "name": "Zarbag’s Gitz",
       "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Warband-Icons-Zarbags-250x250-150x150.png",
       "color": "#e0ce45",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Zarbag9_Thumbnail.png",
           "name": "Zarbag",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Zarbag9_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Zarbag_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Zarbag-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_zarbags_gitz_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_zarbags_gitz_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Zarbag8_Thumbnail.png",
           "name": "Drizgit da Squig Herder",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Zarbag8_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Drizgit_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Drizgit-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_zarbags_gitz_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_zarbags_gitz_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Zarbag1_Thumbnail.png",
           "name": "Bonekrakka",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Zarbag1_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Bonekrakka_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Bonekrakka-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_zarbags_gitz_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_zarbags_gitz_3_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Zarbag2_Thumbnail.png",
           "name": "Gobbaluk",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Zarbag2_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Gobbaluk_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Gobbaluk-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_zarbags_gitz_4.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_zarbags_gitz_4_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Zarbag7_Thumbnail.png",
           "name": "Snirk Sourtongue",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Zarbag7_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sourtongue_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sourtongue-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_zarbags_gitz_5.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_zarbags_gitz_5_inspired.jpg"
           }
         }
       ]
@@ -479,30 +479,30 @@
       "color": "#18a584",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Tzeentch5_Thumbnail.png",
           "name": "Vortemis the All-seeing",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Tzeentch5_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Vortemis_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Vortemis-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_the_eyes_of_the_nine_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_the_eyes_of_the_nine_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Tzeentch6_Thumbnail.png",
           "name": "K’charik",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Tzeentch6_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Kcharik_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Kcharic-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_the_eyes_of_the_nine_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_the_eyes_of_the_nine_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Tzeentch4_Thumbnail.png",
           "name": "Narvia",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Tzeentch4_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Narvia_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Narvia-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_the_eyes_of_the_nine_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_the_eyes_of_the_nine_3_inspired.jpg"
           }
         }
       ]
@@ -513,39 +513,39 @@
       "color": "#8224e3",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Mollog1_Thumbnail.png",
           "name": "Mollog the Mighty",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Mollog1_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Mollog_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Mollog-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_mollogs_mob_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_mollogs_mob_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Mollog4BAT_Thumbnail.png",
           "name": "Bat Squig",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Mollog4BAT_Thumbnail.png",
           "description": "Bat Squigs are little more than mouths with wings, yet these body parts are a deadly combination.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Bat-Squig_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Bat-Squig-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_mollogs_mob_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_mollogs_mob_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Mollog3_Thumbnail.png",
           "name": "Spiteshroom",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Mollog3_Thumbnail.png",
           "description": "The fungal clouds emitted by a Spiteshroom can rot flesh from bone.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Spiteshroom_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Spiteshroom-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_mollogs_mob_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_mollogs_mob_3_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Mollog2_Thumbnail.png",
           "name": "Stalagsquig",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Mollog2_Thumbnail.png",
           "description": "When angered, a Stalagsquig can gnash through metal and bone with gruesome ease.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Stalasquig_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Stalasquig-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_mollogs_mob_4.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_mollogs_mob_4_inspired.jpg"
           }
         }
       ]
@@ -556,73 +556,73 @@
       "color": "#684200",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Darkoath6_Thumbnail.png",
           "name": "Theddra Skull-scryer",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Darkoath6_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Theddra_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Theddra-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_godsworn_hunt_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_godsworn_hunt_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Darkoath3_Thumbnail.png",
           "name": "Grawl",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Darkoath3_Thumbnail.png",
           "description": "Though savage in battle, Grawl follows its master’s commands with deadly precision.",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Grawl_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Grawl-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_godsworn_hunt_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_godsworn_hunt_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Darkoath5_Thumbnail.png",
           "name": "Grundann Blood-eye",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Darkoath5_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Grundann_ENG.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Grundann-INS_ENG.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_godsworn_hunt_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_godsworn_hunt_3_inspired.jpg"
           }
         }
       ]
     },
     {
-      "name": "Ylthari&#8217;s Guardians",
+      "name": "Ylthari’s Guardians",
       "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Warband-Icons-Sylvaneth250x250-150x150.png",
       "color": "#159100",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Sylvaneth2_Thumbnail.png",
           "name": "Ylthari",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Sylvaneth2_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Ylthari.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Ylthari_INS.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_yltharis_guardians_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_yltharis_guardians_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Sylvaneth1_Thumbnail.png",
           "name": "Skhathael",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Sylvaneth1_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Skhathael.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Skhathael-INS.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_yltharis_guardians_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_yltharis_guardians_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Sylvaneth3_Thumbnail.png",
           "name": "Gallanghann of the Glade",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Sylvaneth3_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Gallanghann.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Gallanghann-INS.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_yltharis_guardians_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_yltharis_guardians_3_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Sylvaneth4_Thumbnail.png",
           "name": "Ahnslaine Revenant Archer",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Sylvaneth4_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Ahnslaine.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Ahnslaine-INS.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_yltharis_guardians_4.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_yltharis_guardians_4_inspired.jpg"
           }
         }
       ]
@@ -633,138 +633,138 @@
       "color": "#d88200",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Kharadron4_Thumbnail.png",
           "name": "Bjorgen Thundrik",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Kharadron4_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Thundrik.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Thundrik-INS.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_thundriks_profiteers_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_thundriks_profiteers_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Kharadron5_Thumbnail.png",
           "name": "Khazgan Drakkskewer",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Kharadron5_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Khazgan.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Khazgan-INS.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_thundriks_profiteers_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_thundriks_profiteers_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Kharadron3_Thumbnail.png",
           "name": "Dead-Eye Lund",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Kharadron3_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Lund.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Lund-INS.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_thundriks_profiteers_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_thundriks_profiteers_3_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Kharadron2_Thumbnail.png",
           "name": "Endrik Ironhail",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Kharadron2_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Endrik.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Endrik-INS.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_thundriks_profiteers_4.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_thundriks_profiteers_4_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Kharadron1_Thumbnail.png",
           "name": "Garodd Alensen",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Kharadron1_Thumbnail.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Garodd.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Garodd-INS.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_thundriks_profiteers_5.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_thundriks_profiteers_5_inspired.jpg"
           }
         }
       ]
     },
     {
-      "name": "Grashrak&#8217;s Despoilers",
+      "name": "Grashrak’s Despoilers",
       "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/warband-smaller-150x150.png",
       "color": "#77470d",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Draknar_Deck1-thumb-sm.png",
           "name": "Draknar",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Draknar_Deck1-thumb-sm.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Draknar_Deck1.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Draknar_Deck1-2.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_grashraks_despoilers_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_grashraks_despoilers_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Gnarl_Deck1-thumb-sm.png",
           "name": "Gnarl",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Gnarl_Deck1-thumb-sm.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Gnarl_Deck1.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Gnarl_Deck1-2.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_grashraks_despoilers_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_grashraks_despoilers_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Grashrak_Deck1-thumb-sm.png",
           "name": "Grashrak Fellhoof",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Grashrak_Deck1-thumb-sm.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Grashrak_Deck1.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Grashrak_Deck1-2.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_grashraks_despoilers_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_grashraks_despoilers_3_inspired.jpg"
           }
         }
       ]
     },
     {
-      "name": "Skaeth&#8217;s Wild Hunt",
+      "name": "Skaeth’s Wild Hunt",
       "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/warband-icon-1-150x150.png",
       "color": "#344e2f",
       "fighters": [
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Althaen-Deck2-thumb-sm.png",
           "name": "Althaen, Kurnothi Tracker",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Althaen-Deck2-thumb-sm.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Althaen-Deck2.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Althaen-Deck2-1.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_skaeths_wild_hunt_1.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_skaeths_wild_hunt_1_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Karthaen-Deck2-thumb-sm.png",
           "name": "Karthaen, Huntcaller",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Karthaen-Deck2-thumb-sm.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Karthaen-Deck2.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Karthaen-Deck2-1.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_skaeths_wild_hunt_2.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_skaeths_wild_hunt_2_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Lighaen-Deck2-thumb-sm.png",
           "name": "Lighaen, Malkyn",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Lighaen-Deck2-thumb-sm.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Lighaen-Deck2.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Lighaen-Deck2-1.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_skaeths_wild_hunt_3.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_skaeths_wild_hunt_3_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Sheoch-Deck2-thumb-sm.png",
           "name": "Sheoch, Kurnothi Tracker",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Sheoch-Deck2-thumb-sm.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Sheoch-Deck2.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Sheoch-Deck2-1.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_skaeths_wild_hunt_4.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_skaeths_wild_hunt_4_inspired.jpg"
           }
         },
         {
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Skaeth-Deck2-thumb-sm.png",
           "name": "Skaeth The Huntsman",
+          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Skaeth-Deck2-thumb-sm.png",
           "description": "",
           "card": {
-            "default": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Skaeth-Deck2.png",
-            "flipped": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Skaeth-Deck2-1.png"
+            "default": "/warhamer-underworlds/images/cards/ru/card_skaeths_wild_hunt_5.jpg",
+            "flipped": "/warhamer-underworlds/images/cards/ru/card_skaeths_wild_hunt_5_inspired.jpg"
           }
         }
       ]
     }
   ],
-  "date": "2020-11-15T10:08:43.903Z"
+  "date": "2020-11-22T18:25:21.796Z"
 }
