@@ -1,770 +1,328 @@
 {
   "items": [
     {
-      "name": "Bloodreavers",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2017/09/bloodreavers-icon-150x150.png",
-      "color": "#810a00",
+      "name": "Разбойники Гаррека",
+      "description": "Связанные Кровью - это смертные воины, посвятившие себя Кхорну, богу резни и кровопролития. Ослеплённых боевым безумием, упивающихся ликованием от свершившейся битвы,\n        их интересуют одни лишь убийства. Объединяясь в огромные Воинственные орды, они бесчинствуют во всех владениях, грабя и убивая во имя своего тёмного властелина. Головорезы,\n        состоящие в отряде, во главе которого стоит известный жестокий убийца Гаррек Окровавленная Борода, являются бешеными каннибалами. Тьма в их душах позволила Кровавому Богу обрести\n        ещё более сильную власть над этими смертными. Они избегают тяжёлой брони, предпочитая чувствовать, как кровь обагряет их грудь, и преследуют свою добычу так же неутомимо, как и стая волков.",
+      "icon": "ic_warband_garreks_reavers",
       "fighters": [
-        {
-          "name": "Garrek Gorebeard",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Khorne_Thumb_5.png",
-          "description": "Garrek took over as chieftain of his murderous band after biting out the throat of a rival. The blood that flowed forth to stain and mat his beard earned him his fearsome title.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_garreks_reavers_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_garreks_reavers_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "Karsus the Chained",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Khorne_Thumb_2.png",
-          "description": "Karsus was once a slave, until he used his shackles to choke the life from his masters. He bears his chains still, attached to a many-notched axe that has claimed countless skulls for Khorne.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_garreks_reavers_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_garreks_reavers_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "Blooded  Saek",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Khorne_Thumb_1.png",
-          "description": "Saek has lost himself entirely to the red rage of Khorne. The only sounds that pass his lips are bestial growls, and the blood-chilling screams let loose as he hurls himself into the thick of battle.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_garreks_reavers_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_garreks_reavers_3_inspired.jpg"
-          }
-        },
-        {
-          "name": "Targor",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Khorne_Thumb_4.png",
-          "description": "Targor is a recent addition to the ranks of Garrek’s killers, a member of a conquered tribe who chose to walk the path of skulls rather than suffer a slow, torturous death.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_garreks_reavers_4.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_garreks_reavers_4_inspired.jpg"
-          }
-        },
-        {
-          "name": "Arnulf",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Khorne_Thumb_3.png",
-          "description": "No move is too dishonorable for Arnulf, who enjoys felling foes with a rapid strike of his ritual dagger.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_garreks_reavers_5.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_garreks_reavers_5_inspired.jpg"
-          }
-        }
+        0,
+        1,
+        2,
+        3,
+        4
       ]
     },
     {
-      "name": "Liberators",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2017/09/liberators-icon-new-150x150.png",
-      "color": "#01077c",
+      "name": "Чемпионы Стального Сердца",
+      "description": "Закованные в сияющий сигмарит и вооружённые божественным оружием, все Вечные Грозорождённые являются чемпионами и героями, защитниками цивилизации и заклятыми врагами Хаоса.\n        Некогда они были смертными героями в различных владениях. Они были собраны вместе Богом-Королём Сигмаром и переделаны в физическое воплощение божественной бури. Это живые легенды,\n        ведущие вечную войну против Тёмных Богов.\n        \\n\\nВеличайший секрет Вечных Грозорождённых заключается в процессе Перековки, во время которого в сигмаритовом владении Азирхейм духовный материал павших воинов переносится в молнии и\n        превращается в плоть и металл. Благодаря этому процессу каждый Грозорождённый становится бессмертным, но у столь мощного дара высокая цена — с каждой смертью Вечный Грозорождённый\n        теряет часть своей человечности, становится холодным и отстранённым, теряя и без того разрозненные воспоминания о прошедшей жизни.\n        \\n\\nВоины под командованием Верховного Освободителя Северина Стальное Сердце были частью отряда, посланного в Теневой Шпиль, чтобы исследовать потенциальное исцеление этого недуга. Теперь\n        они попали в ловушку, потеряли связь со своим миром и друг с другом. И лишь шёпот мёртвых показывает им путь домой.",
+      "icon": "ic_warband_steelhearts_champions",
       "fighters": [
-        {
-          "name": "Severin Steelheart",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Stormcast_Thumb_3.png",
-          "description": "Liberator-Prime Steelheart is a veteran of countless battles, and a charismatic and respected leader. His warriors would follow him even to the gates of the Blood God’s citadel.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_steelhearts_champions_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_steelhearts_champions_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "Angharad Brightshield",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Stormcast_Thumb_2.png",
-          "description": "In another life Angharad was a smith, whose master-crafted blades were desired by warriors far and wide. Now she puts her hammer to the task of purging heathens and savages, a calling she has joyfully embraced.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_steelhearts_champions_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_steelhearts_champions_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "Obryn the Bold",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Stormcast_Thumb_1.png",
-          "description": "A bull-hearted giant of a man, Obryn was always the first to laugh and make jest – until his third Reforging. Now he speaks little, and only seems at peace in the heat of battle.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_steelhearts_champions_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_steelhearts_champions_3_inspired.jpg"
-          }
-        }
+        5,
+        6,
+        7
       ]
     },
     {
-      "name": "Sepulchral Guard",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2017/09/Shadespire_DeathrattleSymbolWeb-150x150.png",
-      "color": "#34034f",
+      "name": "Могильная Стража",
+      "description": "Предсмертный хрип в Теневом Шпиле совершенно не похожи на обычных кладбищенских рабов, которых поднимают некроманты и те, кто увлёкся магией смерти. Злоба их душ заперта в их разлагающихся\n        телах из-за проклятия Нагаша, и поэтому они сохранили часть воспоминаний о былой жизни даже после того, как их плоть давно сгнила. Со временем многие из этих бедняг поклялись в верности Богу Смерти\n        и решили служить ему в надежде, что Нагаш однажды услышит их мольбы о прощении и решит освободить их от мучительного существования. Самым яростным верующим является Могильный Смотритель, бывший\n        лорд-маршал Теневого Шпиля. Поклонение этого загадочного создания Нагашу настолько велико, что ему была дарована способность вызывать в своих последователях бешеное поклонение и направлять их\n        против тех, кто посмел бросить вызов воле Великого Некроманта.",
+      "icon": "ic_warband_sepulchral_guard",
       "fighters": [
-        {
-          "name": "The Sepulchral Warden",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skellies_Thumb_3.png",
-          "description": "The Sepulchral Warden was once Lord Marshal of Shadespire and leads its forces still, gifted with strange necromantic powers by Nagash in return for defending his city.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_sepulchral_guard_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_sepulchral_guard_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "The Prince of Dust",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skellies_Thumb_4.png",
-          "description": "Centuries ago the Prince of Dust commanded vast legions and decided the fate of kingdoms on a whim. Now, he is but another tortured servant of the Great Necromancer.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_sepulchral_guard_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_sepulchral_guard_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "The Harvester",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skellies_Thumb_2.png",
-          "description": "In life, the Harvester was a humble farmer &#8211; now, in his afterlife, he reaps a more sinister crop.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_sepulchral_guard_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_sepulchral_guard_3_inspired.jpg"
-          }
-        },
-        {
-          "name": "The Champion",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Skellies_Thumb_1.png",
-          "description": "Though the Champion retains fractured memories of countless battles, he cannot recall whether he fought for duty, honour or coin.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_sepulchral_guard_4.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_sepulchral_guard_4_inspired.jpg"
-          }
-        }
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        12,
+        13,
+        14,
+        12,
+        13,
+        14
       ]
     },
     {
-      "name": "Ironskull’s Boyz",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2017/09/Shadespire_IronjawzSymbolWeb-150x150.png",
-      "color": "#405800",
+      "name": "Странники",
+      "description": "Закованные в сияющий сигмарит и вооружённые божественным оружием, все Вечные Грозорождённые являются чемпионами и героями, защитниками цивилизации и заклятыми врагами Хаоса.\n        Некогда они были смертными героями в различных владениях. Они были собраны вместе Богом-Королём Сигмаром и переделаны в физическое воплощение божественной бури. Это живые легенды,\n        ведущие вечную войну против Тёмных Богов.\n        \\n\\nВеличайший секрет Вечных Грозорождённых заключается в процессе Перековки, во время которого в сигмаритовом владении Азирхейм духовный материал павших воинов переносится в молнии и\n        превращается в плоть и металл. Благодаря этому процессу каждый Грозорождённый становится бессмертным, но у столь мощного дара высокая цена — с каждой смертью Вечный Грозорождённый\n        теряет часть своей человечности, становится холодным и отстранённым, теряя и без того разрозненные воспоминания о прошедшей жизни.\n        \\n\\nСедые охотники, ведомые Верховным Охотником Сансоном Странником, были частью отряда, посланного в Теневой Шпиль, чтобы исследовать потенциальное исцеление этого недуга.\n        Теперь они попали в ловушку, потеряли связь со своим миром и друг с другом. И лишь шёпот мёртвых показывает им путь домой.",
+      "icon": "ic_warband_the_farstriders",
       "fighters": [
-        {
-          "name": "Gurzag Ironskull",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawz_Thumb_2.png",
-          "description": "Gurzag has come to appreciate the Mirrored City, for in all the years he has spent trapped here, he has never run out of things to smash.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_ironskulls_boyz_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_ironskulls_boyz_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "Bonekutta",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawz_Thumb_3.png",
-          "description": "Bonekutta might not be the most cunning of orruks, but he makes up for his lack of wits with a seemingly boundless capacity for gleeful violence.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_ironskulls_boyz_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_ironskulls_boyz_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "Basha",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawz_Thumb_4.png",
-          "description": "Even by the low standards of orruks, Basha is particularly lacking in subtlety, bludgeoning his foes to smithereens in a hail of blows.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_ironskulls_boyz_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_ironskulls_boyz_3_inspired.jpg"
-          }
-        },
-        {
-          "name": "Hakka",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Ironjawz_Thumb_1.png",
-          "description": "Hakka aspires to lead his own warband one day &#8211; after all, bosses get the best loot.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_ironskulls_boyz_4.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_ironskulls_boyz_4_inspired.jpg"
-          }
-        }
+        15,
+        16,
+        17
       ]
     },
     {
-      "name": "The Chosen Axes",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Shadespire_FyreslayersSymbolWeb-150x150.png",
-      "color": "#ff7700",
+      "name": "Изверги Магора",
+      "description": "Изверг Магор Красная Рука ведёт своих Кровавых Воинов через Зеркальный Город в поисках Вечных Грозорождённых, которых он ненавидит, в компании своей верной Гончей Плоти, Клыкаря. Если им подвернётся\n        добыча, они растерзают её на части, и кровь павших так сильно заполонит улицы Зеркального города, это место привлечёт внимание Кхорна, который щедро одарит своих верных слуг.",
+      "icon": "ic_warband_magores_fiends",
       "fighters": [
-        {
-          "name": "Fjul-Grimnir",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fyreslayers_Thumb_4.png",
-          "description": "Long ago the Fyreslayers of Vostarg lodge failed in their oaths to protect the city of Shadespire. Fjul-Grimnir, a former Runefather, sacrificed his birthright to enter the Mirrored City, end the curse and restore the honour of his people.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_the_chosen_axes_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_the_chosen_axes_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "Tefk Flamebearer",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fyreslayers_Thumb_2.png",
-          "description": "Tefk is Fjul-Grimnir’s loyal right hand. Even long years spent traversing the nightmarish labyrinth of Shadespire have not dulled his ebullient spirit.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_the_chosen_axes_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_the_chosen_axes_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "Mad Maegrim",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fyreslayers_Thumb_3.png",
-          "description": "Maegrim was always a little unhinged, even before he took a gargant’s hurled boulder to the head. He might be unpredictable, and occasionally loses himself to battle frenzy, but Fjul-Grimnir has never doubted Maegrim’s loyalty or selfless bravery.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_the_chosen_axes_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_the_chosen_axes_3_inspired.jpg"
-          }
-        },
-        {
-          "name": "Vol Orrukbane",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fyreslayers_Thumb_1.png",
-          "description": "The eldest of Fjul-Grimnir’s band, Vol Orrukbane is a talespinner and war-chanter. He enjoys nothing more than bellowing songs of glory and heroism while he carves into Fjul-Grimnir’s foes with his great axe.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_the_chosen_axes_4.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_the_chosen_axes_4_inspired.jpg"
-          }
-        }
+        18,
+        19,
+        20,
+        21
       ]
     },
     {
-      "name": "Spiteclaw’s Swarm",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Shadespire_SkavenSymbolWeb-150x150.png",
-      "color": "#914e01",
+      "name": "Штормские Экзорцисты Повелителя Бури",
+      "description": "Боевые маги Неприкосновенной Палаты — это мастера штормовой магии, способные простым жестом призвать всеочищающую мощь небесной бури на кончики своих пальцев.\n        \\n\\nРыцаря-Заклинателя Аверона Повелителя Бури, чьё магическое знание о рассеивании и изгнании поистине всеобъемлюще, Бог-Король Сигмар лично избрал для исследования проклятия на Теневом Шпиле.\n        Повелитель Грозы долго изучал негативные последствия процесса перековки, и его мрачное поведение лишь усугублялось, когда возникающие трудности становились более явными.\n        \\n\\nПоначалу Повелитель Бури считал легенду о Теневом Шпиле обычной обманкой, очередным тупиком, который приведёт лишь к расстройству и неудаче. И всё же, после изучения силы наложенного на\n        город проклятия и частиц населённого духами тенестекла в его сердце снова зародилась крупица надежды.\n        \\n\\nБок о бок с двумя своими верными спутниками, Растусом и Аммисом, Повелитель Бури ходит по залам Зеркального Города в поисках ответов и способа освободить Теневой Шпиль от тёмных чар\n        Великого Некроманта. Любой, кто встанет между этой выдающейся троицей и их целью, будет уничтожен с помощью молний или сметён в сторону сверкающими зарядами энергии.",
+      "icon": "ic_warband_stormsires_cursebreakers",
       "fighters": [
-        {
-          "name": "Skritch Spiteclaw",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Skaven-CardArt-SpiteclawSkaven.png",
-          "description": "Warlord Skritch Spiteclaw leads a particularly murderous and spiteful band through the Mirrored City, searching for artefacts and trinkets to loot, and an escape route by which he can claw his way to freedom.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_spiteclaws_swarm_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_spiteclaws_swarm_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "Krrk the Almost-trusted",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Skaven-CardArt-KrrkSkaven.png",
-          "description": "Krrk is Spiteclaw’s second in command – at least until his master meets with some kind of unfortunate accident. His sadistic cruelty is impressive even for a skaven, as any of Spiteclaw’s lowly pack rats can attest.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_spiteclaws_swarm_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_spiteclaws_swarm_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "Lurking Skaven",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Skaven-CardArt-LurkingSkaven.png",
-          "description": "This skulking killer darts from the shadows to drive his twin blades into the back of his victim, before skittering out of harm’s reach – a quintessentially skaven approach to combat.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_spiteclaws_swarm_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_spiteclaws_swarm_3_inspired.jpg"
-          }
-        },
-        {
-          "name": "Hungering Skaven",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Skaven-CardArt-HungeringSkaven.png",
-          "description": "Some skaven develop a voracious hunger for raw flesh that cannot be sated. In battle, this manifests as a ravenous madness. The frenzied swipes of their crude weapons can be just as deadly to their own kind as to their intended prey.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_spiteclaws_swarm_4.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_spiteclaws_swarm_4_inspired.jpg"
-          }
-        },
-        {
-          "name": "Festering Skaven",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/02/Skaven-CardArt-FesteringSkaven.png",
-          "description": "The Great Horned Rat has blessed this lowly pack rat with a bounty of festering boils, rashes and buboes. His weapons are similarly encrusted with foul-smelling grime.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_spiteclaws_swarm_5.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_spiteclaws_swarm_5_inspired.jpg"
-          }
-        }
+        22,
+        23,
+        24
       ]
     },
     {
-      "name": "The Farstriders",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/04/Warband-Icons-Rangers250x250-150x150.png",
-      "color": "#033f99",
+      "name": "Шипы Королевы Бриаров",
+      "description": "Королева Бриаров некогда была магом смерти, обладающим поражающей силой, великим врагом Теневого Шпиля, чья армия нежити прорвалась сквозь стены города и грозилась уничтожить всё, чтобы\n        было построено Катофранами. Однако после немыслимого количества пролитой крови Королева Бриаров потерпела поражение, попала в плен и была приговорена к вечному заключению и пыткам в Тёмном Склепе,\n        расположенном далеко под городскими улицами. Прошли годы, и такое полное мук существование медленно свело Королеву Бриаров с ума. На долгие годы заключённая в клетке из обсидианового тенестекла,\n        она упивалась жалостью к себе и отчаянием, но в ней также тлела янтарная ненависть к тем, кто подверг её подобной судьбе. Она стала отличным инструментом Нагаша для нападения на тех, кто посмел\n        спуститься в Зеркальный Город. Великий Некромант вытащил её кричащую сущность из кристальной гробницы и придал её зарождающейся злобе ужасную форму баньши, оставив ей былое мастерство в\n        области некромантии.",
+      "icon": "ic_warband_thorns_of_the_briar_queen",
       "fighters": [
-        {
-          "name": "Sanson Farstrider",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/04/Farstriders-CardArt-EagleEye.png",
-          "description": "It is said that even if he were to find himself in the halls of the Crystal Labyrinth, Farstrider would find a way free, such is his supreme talent for wayfinding.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_the_farstriders_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_the_farstriders_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "Almeric Eagle-Eye",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/04/Farstriders-CardArt-Farstrider.png",
-          "description": "The solemn and reserved warrior known as Eagle-Eye has an almost preternatural sense for danger, which has saved the lives of his companions on countless occasions.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_the_farstriders_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_the_farstriders_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "Elias Swiftblade",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/04/Farstriders-CardArt-Swiftblade.png",
-          "description": "In his mortal life, Swiftblade was a wandering duellist, a master of the sword who cut down countless champions of the Dark Gods.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_the_farstriders_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_the_farstriders_3_inspired.jpg"
-          }
-        }
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        28,
+        29,
+        30,
+        31,
+        28,
+        29,
+        30,
+        31,
+        28,
+        29,
+        30,
+        31
       ]
     },
     {
-      "name": "Magore’s Fiends",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/04/Warband-Icons-Fiends250x250-150x150.png",
-      "color": "#e20404",
+      "name": "Избранные Топоры",
+      "description": "Дуардины, известные как Огненные Истребители, являются бесстрашными и непокорными наёмниками. Они готовы сражаться с кем угодно в обмен на пра-золото — магический материал, который подпитывает\n        их великую силу и который, как они верят, является духовной эссенцией их бога-воина Гримнира.\n        \\n\\nДля Огненного Истребителя честь первостепенна. Именно по этой причине на Огненных Истребителях из Ложи Востаргов до сих пор лежит клеймо поражения при попытке защитить Теневой Шпиль. Сотни воинов\n        пали или исчезли при попытке остановить проклятие, обрушившееся на город, и всё же ни один Огненный Истребитель никогда не забросит своё начинание.",
+      "icon": "ic_warband_the_chosen_axes",
       "fighters": [
-        {
-          "name": "Magore Redhand",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends_Thumb_4.png",
-          "description": "A macabre transformation came over Redhand during a battle with the hated Stormcast Eternals, a truly mighty gift from Khorne. A slavering daemonic maw erupted from his stomach, decapitating the Lord-Castellant about to lay him low.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_magores_fiends_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_magores_fiends_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "Riptooth",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends_Thumb_3.png",
-          "description": "Gifted to Magore Redhand’s warband by Khorne as a reward for their grisly devotion, Riptooth hunts the foes of the Blood God with relentless fury.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_magores_fiends_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_magores_fiends_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "Ghartok Flayskull",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends_Thumb_2.png",
-          "description": "Ghartok Flayskull revels in dispatching enemy champions, cutting down his foes with focused, unrelenting assaults.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_magores_fiends_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_magores_fiends_3_inspired.jpg"
-          }
-        },
-        {
-          "name": "Zharkus the Bloodsighted",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Fiends_Thumb_1.png",
-          "description": "Zharkus is utterly lost to Khorne’s rage, screaming and drooling as he carves his foes apart in a hail of crazed &#8211; yet brutally precise &#8211; blows.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_magores_fiends_4.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_magores_fiends_4_inspired.jpg"
-          }
-        }
+        32,
+        33,
+        34,
+        35
       ]
     },
     {
-      "name": "Stormsire’s Cursebreakers",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/09/Warband-Icons-Sacrosanct250x250-150x150.png",
-      "color": "#1f8bc1",
+      "name": "Полчище Злого Когтя",
+      "description": "Скавены — это раса злобных и коварных крысолюдов, находящихся в рабстве у Хаоса. Кажущиеся неисчислимыми полчища великих скавенских кланов приносят погибель в каждый уголок мира, выныривая из\n        каждой скрытой норы и охотясь на прочие смертные расы. Их коварная натура оказалась сущей удачей, ведь если бы все кланы объединились, их невозможно было бы остановить.\n        \\n\\nВоеначальник Скритч Ярокоготь возглавляет особо кровожадный и злобный отряд во всём Зеркальном Городе. Охотясь за артефактами и безделушками, он ищет путь, который выведет его на свободу.",
+      "icon": "ic_warband_spiteclaws_swarm",
       "fighters": [
-        {
-          "name": "Averon Stormsire",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sacrosanct_Thumb_1.png",
-          "description": "A specialist in the breaking of curses and the sundering of dark enchantments, Stormsire is one of the God-King’s most trusted arcane agents.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_stormsires_cursebreakers_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_stormsires_cursebreakers_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "Ammis Dawnguard",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sacrosanct_Thumb_2.png",
-          "description": "Ammis treats her role in the Sacrosanct Chambers with holy reverence, fighting furiously to bring the spirits of fallen heroes to their rightful place at the God-King&#8217;s side.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_stormsires_cursebreakers_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_stormsires_cursebreakers_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "Rastus the Charmed",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Sacrosanct_Thumb_3.png",
-          "description": "In battle, Rastus The Charmed cuts the enemies of Order down with a merciless fervour born of fathomless contempt.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_stormsires_cursebreakers_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_stormsires_cursebreakers_3_inspired.jpg"
-          }
-        }
+        36,
+        37,
+        38,
+        39,
+        40
       ]
     },
     {
-      "name": "Thorns of the Briar Queen",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/09/Warband-Icons-Nightvault250x250-150x150.png",
-      "color": "#7a8277",
+      "name": "Парни Железного Черепа",
+      "description": "Орруки - это дикие, мускулистые создания, которые живут ради грохота и треска битвы. Парни железного черепа - сильнейшие из них, они защищены толстыми пластинами покрытого ржавчиной\n        металла и вооружены огромным зазубренным оружием, выкованным из того же материала. Они представляют собой вечную угрозу Владениям Смертных, их многочисленные орды рыщут по землям и\n        уничтожают всё на своём пути. Гурзаг Железный Череп и его парни попали в Зеркальный город несколько десятилетий назад после неудачного поиска сокровищ в руинах Теневого Шпиля. Железный Череп\n        поначалу впал в ярость, но с годами он даже проникся тёплыми чувствами к этому месту. Ну а какой уважающий себя оррук откажется от бесконечной жестокости и кровопролития?",
+      "icon": "ic_warband_ironskulls_boyz",
       "fighters": [
-        {
-          "name": "Briar Queen",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/09/Nighthaunt-BriarQueenArt.png",
-          "description": "The Briar Queen – nemesis of the cursed city of Shadespire – is tasked with claiming certain souls who have cheated Nagash.\nWith the aid of her spectral army – the Thorns of the Briar Queen – she visits each of the Mortal Realms, always bringing back her target’s soul.\nBetween missions the Briar Queen returns to Shadespire, for her need for vengeance here remains unsatisfied.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_thorns_of_the_briar_queen_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_thorns_of_the_briar_queen_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "Varclav the Cruel",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt_Thumb_1.png",
-          "description": "Varclav the Cruel is the Briar Queen’s majordomo, an infamously sadistic gheist who was formerly the high-warden of the Nightvault until he himself was imprisoned for a string of vile murders.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_thorns_of_the_briar_queen_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_thorns_of_the_briar_queen_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "The Ever-Hanged",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt_Thumb_2.png",
-          "description": "Greatest of the Briar Queen&#8217;s Chainrasps is the Ever-hanged, the spectral echo of a serial murderer, around whose neck still hangs the gallows-rope that ended his reign of terror.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_thorns_of_the_briar_queen_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_thorns_of_the_briar_queen_3_inspired.jpg"
-          }
-        },
-        {
-          "name": "Chainrasp",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Nighthaunt_Thumb_3.png",
-          "description": "Nagash’s final gift to the Briar Queen was an army of malicious spirits with which to see his will done.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_thorns_of_the_briar_queen_4.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_thorns_of_the_briar_queen_4_inspired.jpg"
-          }
-        }
+        41,
+        42,
+        43,
+        44
       ]
     },
     {
-      "name": "Zarbag’s Gitz",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Warband-Icons-Zarbags-250x250-150x150.png",
-      "color": "#e0ce45",
+      "name": "Негодяи Зарбага",
+      "description": "Зарбаг - Шаман Лунного Клана, и его банда головорезов, словно зараза, распространяются в самом сердце Зеркального Города. Во время обыска руин Теневого Шпиля Зарбаг вынюхал восхитительный\n        аромат грибных спор, поднимающийся из глубины подземелья. Не в силах сопротивляться этому соблазнительному искушению, Шаман и его гроты прокопали туннель в громадную выгребную яму и провалились\n        во тьму. Они рухнули на землю в глубинах Зеркального Города и быстро осознали, что потерялись в Танатологических Садах, созданных городскими мастерами Катофрана. Там, под стеклянными куполами,\n        некогда красовались цветущие клумбы и буйные плантации, но сейчас здесь растут только поля удушливой плесени и возвышаются гроздья бесшляпковых грибов. Все, чего желал Зарбаг, и даже больше!\n        Шаман посчитал своим долгом распространить эти ядовитые грибы повсюду, таща все больше и больше своих бесчисленных соотечественников в Зеркальный Город.",
+      "icon": "ic_warband_zarbags_gitz",
       "fighters": [
-        {
-          "name": "Zarbag",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Zarbag9_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_zarbags_gitz_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_zarbags_gitz_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "Drizgit da Squig Herder",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Zarbag8_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_zarbags_gitz_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_zarbags_gitz_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "Bonekrakka",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Zarbag1_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_zarbags_gitz_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_zarbags_gitz_3_inspired.jpg"
-          }
-        },
-        {
-          "name": "Gobbaluk",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Zarbag2_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_zarbags_gitz_4.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_zarbags_gitz_4_inspired.jpg"
-          }
-        },
-        {
-          "name": "Snirk Sourtongue",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Zarbag7_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_zarbags_gitz_5.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_zarbags_gitz_5_inspired.jpg"
-          }
-        }
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
       ]
     },
     {
-      "name": "Eyes of the Nine",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2018/10/Warband-Icons-EyesoftheNine-250x250-150x150.png",
-      "color": "#18a584",
+      "name": "Глаза Девяти",
+      "description": "Вортемис Всевидящий и его верные служители обитают в Зеркальном Городе на протяжении веков с тех самых пор, как Нагаш обрёк город на его ужасную судьбу. Они подчиняются воле Измождённых\n        Призывателей, девяти повелителей загадочных Серебряных Башен. С тех самых пор, как город пал, Вортемис пытается открыть портал между скрытым Теневым Шпилем и одной из покоробившихся,\n        запутанных крепостей. Пока что все его усилия были напрасны. Однако с высвобождением магии, поразившей Владения Смертных, перед ним открылись новые возможности. Глаза Девяти теперь\n        стремятся превратить захваченные реликвии из тенестекла в маячки магической силы, в магниты, которые привяжут Теневой Шпиль к Серебряным Башням и распространят повсюду безумие Владения Хаоса.\n        Если их затея увенчается успехом, Тзинч, бог чар и колдовства, станет повелителем Зеркального Города.",
+      "icon": "ic_warband_eyes_of_the_nine",
       "fighters": [
-        {
-          "name": "Vortemis the All-seeing",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Tzeentch5_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_the_eyes_of_the_nine_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_the_eyes_of_the_nine_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "K’charik",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Tzeentch6_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_the_eyes_of_the_nine_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_the_eyes_of_the_nine_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "Narvia",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Tzeentch4_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_the_eyes_of_the_nine_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_the_eyes_of_the_nine_3_inspired.jpg"
-          }
-        }
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
       ]
     },
     {
-      "name": "Mollog’s Mob",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Warband-Icons-Mollog250x250-150x150.png",
-      "color": "#8224e3",
+      "name": "Орда Моллога",
+      "description": "Заросший Троггот, известный как Моллог Могучий, веками спал в своей заросшей грибами пещере, расположенной под дюнами Пустыни Костей, просыпаясь лишь для поиска пищи. Эта прекрасная жизнь была\n        прервана вторжением Скавенов, пришедших из подземных глубин. После того, как он выковырял из зубов последние кусочки плоти и обрывки меха, троггот понял, что не сможет защитить свой дом от\n        бесконечных набегов этих вредителей. Окружённый толпой, состоящей из обитателей его старой пещеры, Моллог отправился на поиски новой. Троггот путешествовал по усыпанной костями пустоши, пока\n        не пришёл к руинам Теневого Шпиля. Он спускался всё ниже и ниже под землю, уверенный, что где-то в его сырых глубинах отыщется тихая пещера, которая придётся ему по вкусу. Вместо этого Моллог\n        нашёл лабиринт Зеркального Города. Тем не менее, он продолжает поиски, оставляя за собой след из раздавленных и изуродованных тел.",
+      "icon": "ic_warband_mollogs_mob",
       "fighters": [
-        {
-          "name": "Mollog the Mighty",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Mollog1_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_mollogs_mob_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_mollogs_mob_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "Bat Squig",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Mollog4BAT_Thumbnail.png",
-          "description": "Bat Squigs are little more than mouths with wings, yet these body parts are a deadly combination.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_mollogs_mob_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_mollogs_mob_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "Spiteshroom",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Mollog3_Thumbnail.png",
-          "description": "The fungal clouds emitted by a Spiteshroom can rot flesh from bone.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_mollogs_mob_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_mollogs_mob_3_inspired.jpg"
-          }
-        },
-        {
-          "name": "Stalagsquig",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Mollog2_Thumbnail.png",
-          "description": "When angered, a Stalagsquig can gnash through metal and bone with gruesome ease.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_mollogs_mob_4.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_mollogs_mob_4_inspired.jpg"
-          }
-        }
+        60,
+        61,
+        62,
+        63
       ]
     },
     {
-      "name": "Godsworn Hunt",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Warband-Icons-Darkoath250x250-150x150.png",
-      "color": "#684200",
+      "name": "Благословенные Охотники",
+      "description": "Зеддра Череповидица, боевой шаман Племени Чёрного Клыка, ведёт свой отряд Благословенных Охотников в глубины Зеркального Города на поиски достойных жертв для пантеона Хаоса. Каждый из её воинов\n        принёс кровавую клятву, заключил пакт души и железа. Они поклялись, что не покинут призрачные залы Теневого Шпиля, пока каждый из них не заберёт жизнь хотя бы одного громового воина – одного из\n        так называемых Вечных Грозорождённых, служащих своему новоявленному Богу-Королю. Ведомая терзающими сердце видениями завоеваний и славы, Череповидица в погоне за добычей исследует самые мрачные\n        и искажённые глубины Теневого Шпиля. Она возглавляет отряд величайших чемпионов из племени закалённых в бою убийц, каждый из которых – безжалостный и изобретательный охотник, заработавший\n        репутацию множеством кровавых и доблестных свершений. Воины из Благословенных Охотников, чьи тела украшены множеством боевых трофеев и клятвенных камней, не страшатся ничего, ведь им довелось\n        заглянуть в тёмное сердце самого Хаоса.",
+      "icon": "ic_warband_godsworn_hunt",
       "fighters": [
-        {
-          "name": "Theddra Skull-scryer",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Darkoath6_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_godsworn_hunt_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_godsworn_hunt_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "Grawl",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Darkoath3_Thumbnail.png",
-          "description": "Though savage in battle, Grawl follows its master’s commands with deadly precision.",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_godsworn_hunt_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_godsworn_hunt_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "Grundann Blood-eye",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/01/Darkoath5_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_godsworn_hunt_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_godsworn_hunt_3_inspired.jpg"
-          }
-        }
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
       ]
     },
     {
-      "name": "Ylthari’s Guardians",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Warband-Icons-Sylvaneth250x250-150x150.png",
-      "color": "#159100",
+      "name": "Хранители Ильтари",
+      "description": "После некротрясения магия жизни Алариэль смогла просочиться в Теневой Шпиль через разрывы в ткани реальности. Некоторые Сильванеты, запертые в ловушке, снова зашевелились. Ильтари и её Хранители\n        проснулись первыми. Пылая гневом и решимостью, они ищут потерянные коконы душ своих павших сородичей.",
+      "icon": "ic_warband_yltharis_guardians",
       "fighters": [
-        {
-          "name": "Ylthari",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Sylvaneth2_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_yltharis_guardians_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_yltharis_guardians_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "Skhathael",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Sylvaneth1_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_yltharis_guardians_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_yltharis_guardians_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "Gallanghann of the Glade",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Sylvaneth3_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_yltharis_guardians_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_yltharis_guardians_3_inspired.jpg"
-          }
-        },
-        {
-          "name": "Ahnslaine Revenant Archer",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Sylvaneth4_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_yltharis_guardians_4.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_yltharis_guardians_4_inspired.jpg"
-          }
-        }
+        70,
+        71,
+        72,
+        73
       ]
     },
     {
-      "name": "Thundrik’s Profiteers",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Warband-Icons-Kharadron250x250-150x150.png",
-      "color": "#d88200",
+      "name": "Шкуродёры Тандрика",
+      "description": "Бьорген Тандрик и его команда небесных странников были не первыми среди Владык Харадрона, кто отправился на поиски Теневого Шпиля. Неясные слухи о сокровищах Катофрана дошли до многих небесных\n        портов, но все снаряжённые экспедиции возвращались ни с чем или не возвращались вовсе. Набрав отважную команду и сев на чудесный небесный корабль, Тандрик решил достичь того, в чём не смогли\n        преуспеть остальные.",
+      "icon": "ic_warband_thundriks_profiteers",
       "fighters": [
-        {
-          "name": "Bjorgen Thundrik",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Kharadron4_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_thundriks_profiteers_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_thundriks_profiteers_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "Khazgan Drakkskewer",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Kharadron5_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_thundriks_profiteers_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_thundriks_profiteers_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "Dead-Eye Lund",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Kharadron3_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_thundriks_profiteers_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_thundriks_profiteers_3_inspired.jpg"
-          }
-        },
-        {
-          "name": "Endrik Ironhail",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Kharadron2_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_thundriks_profiteers_4.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_thundriks_profiteers_4_inspired.jpg"
-          }
-        },
-        {
-          "name": "Garodd Alensen",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/04/Kharadron1_Thumbnail.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_thundriks_profiteers_5.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_thundriks_profiteers_5_inspired.jpg"
-          }
-        }
+        74,
+        75,
+        76,
+        77,
+        78
       ]
     },
     {
-      "name": "Grashrak’s Despoilers",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/warband-smaller-150x150.png",
-      "color": "#77470d",
+      "name": "Мародёры Грашрака",
+      "description": "Мародёры Грашрака из народа горов ненавидят всё светлое и чистое со звериным неистовством, не имеющим ни причины, ни хоть какой-то сдержанности. Их главная движущая сила – это стремление\n        уничтожить любые следы цивилизации, сокрушить и растоптать красоту и порядок и оставить на своём пути лишь хаос и реки крови. Залив свой путь кровью от Грызущего Леса до Гневных Холмов, эта\n        звериная орда вторглась в недра Звериной Могилы в поисках новых жертв, чтобы разорвать их на части, и новых чудес, чтобы растоптать их в пыль.",
+      "icon": "ic_warband_grashraks_despoilers",
       "fighters": [
-        {
-          "name": "Draknar",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Draknar_Deck1-thumb-sm.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_grashraks_despoilers_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_grashraks_despoilers_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "Gnarl",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Gnarl_Deck1-thumb-sm.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_grashraks_despoilers_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_grashraks_despoilers_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "Grashrak Fellhoof",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Grashrak_Deck1-thumb-sm.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_grashraks_despoilers_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_grashraks_despoilers_3_inspired.jpg"
-          }
-        }
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
       ]
     },
     {
-      "name": "Skaeth’s Wild Hunt",
-      "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/warband-icon-1-150x150.png",
-      "color": "#344e2f",
+      "name": "Дикая Охота Скита",
+      "description": "Скит и его спутники поклоняются Курноту – богу охоты и павшему союзнику Алариэль, богини жизни. Дикие и шальные, они являются воплощением природы в её наиболее первобытном и агрессивном виде.\n        Однако благородство умеряет кровожадность Курнотхи. Они охотятся только на тех, кто оскверняет естественный порядок, безжалостно преследуя и убивая своих врагов, чтобы очистить от их скверны\n        Владения Смертных. Отряд Скита стремится восстановить всё то, что было уничтожено в Эру Хаоса, и не знает милосердия на пути к своей цели.",
+      "icon": "ic_warband_skaeths_wild_hunt",
       "fighters": [
-        {
-          "name": "Althaen, Kurnothi Tracker",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Althaen-Deck2-thumb-sm.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_skaeths_wild_hunt_1.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_skaeths_wild_hunt_1_inspired.jpg"
-          }
-        },
-        {
-          "name": "Karthaen, Huntcaller",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Karthaen-Deck2-thumb-sm.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_skaeths_wild_hunt_2.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_skaeths_wild_hunt_2_inspired.jpg"
-          }
-        },
-        {
-          "name": "Lighaen, Malkyn",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Lighaen-Deck2-thumb-sm.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_skaeths_wild_hunt_3.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_skaeths_wild_hunt_3_inspired.jpg"
-          }
-        },
-        {
-          "name": "Sheoch, Kurnothi Tracker",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Sheoch-Deck2-thumb-sm.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_skaeths_wild_hunt_4.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_skaeths_wild_hunt_4_inspired.jpg"
-          }
-        },
-        {
-          "name": "Skaeth The Huntsman",
-          "icon": "https://warhammerunderworlds.com/wp-content/uploads/sites/6/2019/09/Skaeth-Deck2-thumb-sm.png",
-          "description": "",
-          "card": {
-            "default": "/warhamer-underworlds/images/cards/en/card_skaeths_wild_hunt_5.jpg",
-            "flipped": "/warhamer-underworlds/images/cards/en/card_skaeths_wild_hunt_5_inspired.jpg"
-          }
-        }
+        85,
+        86,
+        87,
+        88,
+        89
+      ]
+    },
+    {
+      "name": "Мрачный Дозор",
+      "description": "Нет",
+      "icon": "ic_warband_the_grymwatch",
+      "fighters": [
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96
+      ]
+    },
+    {
+      "name": "Рёвоклыки Риппы",
+      "description": "Нет",
+      "icon": "ic_warband_rippas_snarlfangs",
+      "fighters": [
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "name": "Горестный полёт Леди Харроу",
+      "description": "Нет",
+      "icon": "ic_warband_lady_harrows_mournflight",
+      "fighters": [
+        100,
+        101,
+        102,
+        103
+      ]
+    },
+    {
+      "name": "Каратели из отряда Железной Души",
+      "description": "Нет",
+      "icon": "ic_warband_ironsouls_condemnors",
+      "fighters": [
+        104,
+        105,
+        106
+      ]
+    },
+    {
+      "name": "Червегады",
+      "description": "Нет",
+      "icon": "ic_warband_the_wurmspat",
+      "fighters": [
+        107,
+        108,
+        109
+      ]
+    },
+    {
+      "name": "Охотники на людей Хротгорна",
+      "description": "Нет",
+      "icon": "ic_warband_hrothgorns_mantrappers",
+      "fighters": [
+        110,
+        111,
+        112,
+        113,
+        114
+      ]
+    },
+    {
+      "name": "Morgok's Krushas",
+      "description": "",
+      "icon": "",
+      "fighters": [
+        115,
+        116,
+        117
+      ]
+    },
+    {
+      "name": "Ковен",
+      "description": "",
+      "icon": "",
+      "fighters": [
+        118,
+        119,
+        120,
+        121,
+        122
       ]
     }
   ],
-  "date": "2020-11-22T18:25:21.773Z"
+  "date": "2020-12-06T11:05:55.429Z"
 }
