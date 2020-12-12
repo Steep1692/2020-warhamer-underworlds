@@ -905,7 +905,7 @@
       "name": "Серные Ужасы",
       "iconName": "ic_warband_the_eyes_of_the_nine_6",
       "cardName": "card_the_eyes_of_the_nine_6",
-      "cardInspiredName": "card_the_eyes_of_the_nine_6_inspired",
+      "cardInspiredName": "none",
       "descriptionInspired": "none",
       "healthPoints": 1,
       "defenceStyle": "evasion",
