@@ -1,0 +1,52 @@
+@import "../../../styles/variables";
+
+.root {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+
+  &.primary {
+    border: 1px solid $color-text-default;
+    color: $color-text-default;
+    background-color: transparent;
+  }
+
+  &.secondary {
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    color: $color-text-light;
+    background-color: $color-primary-dark;
+  }
+
+  &.third {
+    padding: 1rem;
+    border: none;
+    background-image: url(finish_game_button_background.png);
+    background-color: transparent;
+    background-size: cover;
+    color: $color-text-light;
+  }
+
+  &.disabled {
+    border-color: gray;
+    color: gray;
+    cursor: default;
+  }
+
+  &:not(.disabled) {
+    &:active {
+      background-color: rgba(125, 102, 72, 0.2);
+    }
+  }
+}
+
+@media (hover: hover) {
+  .root {
+    &:not(.disabled) {
+      &:hover {
+        background-color: rgba(125, 102, 72, 0.2);
+      }
+    }
+  }
+}

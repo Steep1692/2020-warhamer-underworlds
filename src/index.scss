@@ -1,0 +1,55 @@
+@import "styles/variables";
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body, #root {
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Roboto, monospace;
+  user-select: none;
+}
+
+* {
+  box-sizing: border-box;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+
+  &:disabled {
+    cursor: default;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  background: $color-primary;
+  color: $color-text-default;
+}
+
+@media all and (min-width: 1024px) {
+  html {
+    font-size: 20px;
+  }
+}

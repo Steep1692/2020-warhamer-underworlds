@@ -1,0 +1,3095 @@
+
+    //-------------------------------
+    
+    private void AddWarband_1(){
+        mDatabase.beginTransaction();
+
+        //Warband - Garrek's Reavers
+        Warband warband_1 = new Warband();
+        warband_1.setName(mContext.getResources().getString(R.string.garreks_reavers_warband_name));
+        warband_1.setDescription(mContext.getResources().getString(R.string.garreks_reavers_warband_description));
+        warband_1.setIconPath(mContext.getResources().getString(R.string.garreks_reavers_warband_icon_path));
+        mDatabase.insert(warband_1);
+
+        //Fighter - Garrek Gorebeard
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Гаррек Окровавленная Борода");
+        f1.setIconPath("ic_warband_garreks_reavers_1");
+        f1.setCardPath("card_garreks_reavers_1");
+        f1.setInspiredStateCardPath("card_garreks_reavers_1_inspired");
+        f1.setInspirationStateDescription("Не менее трех бойцов выбыли из игры");
+        f1.setHealth(4);
+
+        f1.setDefenceStyle("evasion");
+
+        f1.setMovementDistance(4);
+        f1.setDefenceValue(1);
+
+        f1.setInspiredName("Гаррек Вдохновленный");
+        f1.setInspiredMovementDistance(5);
+        f1.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_1.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+
+        //Fighter - Karsus the Chained
+        Fighter f2 = new Fighter();
+        f2.setName("Карсус Закованный");
+        f2.setIconPath("ic_warband_garreks_reavers_2");
+        f2.setCardPath("card_garreks_reavers_2");
+        f2.setInspiredStateCardPath("card_garreks_reavers_2_inspired");
+        f2.setInspirationStateDescription("Не менее трех бойцов выбыли из игры");
+        f2.setHealth(3);
+
+        f2.setDefenceStyle("evasion");
+
+        f2.setMovementDistance(4);
+        f2.setDefenceValue(1);
+
+        f2.setInspiredName("Карсус Вдохновленный");
+        f2.setInspiredMovementDistance(5);
+        f2.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_1.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+
+        //Fighter - Blooded Saek
+        Fighter f3 = new Fighter();
+        f3.setName("Кровавый Саэк");
+        f3.setIconPath("ic_warband_garreks_reavers_3");
+        f3.setCardPath("card_garreks_reavers_3");
+        f3.setInspiredStateCardPath("card_garreks_reavers_3_inspired");
+        f3.setInspirationStateDescription("Не менее трех бойцов выбыли из игры");
+        f3.setHealth(3);
+
+        f3.setDefenceStyle("evasion");
+
+        f3.setMovementDistance(4);
+        f3.setDefenceValue(1);
+
+        f3.setInspiredName("Саэк Вдохновленный");
+        f3.setInspiredMovementDistance(5);
+        f3.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_1.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+
+        //Fighter - Targor
+        Fighter f4 = new Fighter();
+        f4.setName("Таргор");
+        f4.setIconPath("ic_warband_garreks_reavers_4");
+        f4.setCardPath("card_garreks_reavers_4");
+        f4.setInspiredStateCardPath("card_garreks_reavers_4_inspired");
+        f4.setInspirationStateDescription("Не менее трех бойцов выбыли из игры");
+        f4.setHealth(2);
+
+        f4.setDefenceStyle("evasion");
+
+        f4.setMovementDistance(4);
+        f4.setDefenceValue(1);
+
+        f4.setInspiredName("Таргор Вдохновленный");
+        f4.setInspiredMovementDistance(5);
+        f4.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_1.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+
+        //Fighter - Arnulf
+        Fighter f5 = new Fighter();
+        f5.setName("Арнулф");
+        f5.setIconPath("ic_warband_garreks_reavers_5");
+        f5.setCardPath("card_garreks_reavers_5");
+        f5.setInspiredStateCardPath("card_garreks_reavers_5_inspired");
+        f5.setInspirationStateDescription("Не менее трех бойцов выбыли из игры");
+        f5.setHealth(2);
+
+        f5.setDefenceStyle("evasion");
+
+        f5.setMovementDistance(4);
+        f5.setDefenceValue(1);
+
+        f5.setInspiredName("Арнулф Вдохновленный");
+        f5.setInspiredMovementDistance(5);
+        f5.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f5);
+        f5.setWarbandId(warband_1.getId());
+        mDatabase.copyToRealmOrUpdate(f5);
+
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_2(){
+        mDatabase.beginTransaction();
+        
+        //Warband - Steelheart's Champions
+        Warband warband_2 = new Warband();
+        warband_2.setName(mContext.getResources().getString(R.string.steelhearts_champions_warband_name));
+        warband_2.setDescription(mContext.getResources().getString(R.string.steelhearts_champions_warband_description));
+        warband_2.setIconPath(mContext.getResources().getString(R.string.steelhearts_champions_warband_icon_path));
+        mDatabase.insert(warband_2);
+    
+        //Fighter - Severin Steelheart
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Северин Стальное Сердце");
+        f1.setIconPath("ic_warband_steelhearts_champions_1");
+        f1.setCardPath("card_steelhearts_champions_1");
+        f1.setInspiredStateCardPath("card_steelhearts_champions_1_inspired");
+        f1.setInspirationStateDescription("При броске кубиков этот боец получает " +
+                "«Блок» или «Критический успех», если его атакуют");
+        f1.setHealth(4);
+    
+        f1.setDefenceStyle("block");
+    
+        f1.setMovementDistance(3);
+        f1.setDefenceValue(1);
+    
+        f1.setInspiredName("Стальное Сердце Вдохновленный");
+        f1.setInspiredMovementDistance(3);
+        f1.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_2.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+    
+        //Fighter - Angharad Brightshield
+        Fighter f2 = new Fighter();
+        f2.setName("Ангард Светлый Щит");
+        f2.setIconPath("ic_warband_steelhearts_champions_2");
+        f2.setCardPath("card_steelhearts_champions_2");
+        f2.setInspiredStateCardPath("card_steelhearts_champions_2_inspired");
+        f2.setInspirationStateDescription("При броске кубиков этот боец получает " +
+                "«Блок» или «Критический успех», если его атакуют");
+        f2.setHealth(4);
+    
+        f2.setDefenceStyle("block");
+        
+        f2.setMovementDistance(3);
+        f2.setDefenceValue(1);
+    
+        f2.setInspiredName("Светлый Щит Вдохновленный");
+        f2.setInspiredMovementDistance(3);
+        f2.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_2.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+
+    
+        //Fighter - Obryn the Bold
+        Fighter f3 = new Fighter();
+        f3.setName("Обрин Отважный");
+        f3.setIconPath("ic_warband_steelhearts_champions_3");
+        f3.setCardPath("card_steelhearts_champions_3");
+        f3.setInspiredStateCardPath("card_steelhearts_champions_3_inspired");
+        f3.setInspirationStateDescription("При броске кубиков этот боец получает " +
+                "«Блок» или «Критический успех», если его атакуют");
+        f3.setHealth(4);
+    
+        f3.setDefenceStyle("block");
+    
+        f3.setMovementDistance(3);
+        f3.setDefenceValue(1);
+    
+        f3.setInspiredName("Обрин Вдохновленный");
+        f3.setInspiredMovementDistance(3);
+        f3.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_2.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+    
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_3(){
+        mDatabase.beginTransaction();
+        
+        //Warband - Sepulchral Guard
+        Warband warband_3 = new Warband();
+        warband_3.setName(mContext.getResources().getString(R.string.sepulchral_guard_warband_name));
+        warband_3.setDescription(mContext.getResources().getString(R.string.sepulchral_guard_warband_description));
+        warband_3.setIconPath(mContext.getResources().getString(R.string.sepulchral_guard_warband_icon_path));
+        mDatabase.insert(warband_3);
+    
+        //Fighter - The Sepulchral Warden
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Могильный Смотритель");
+        f1.setIconPath("ic_warband_sepulchral_guard_1");
+        f1.setCardPath("card_sepulchral_guard_1");
+        f1.setInspiredStateCardPath("card_sepulchral_guard_1_inspired");
+        f1.setInspirationStateDescription("Два дружественных бойца возвращаются " +
+                "на поле боя");
+        f1.setHealth(4);
+    
+        f1.setDefenceStyle("evasion");
+        
+        f1.setMovementDistance(2);
+        f1.setDefenceValue(1);
+    
+        f1.setInspiredName("Смотритель Вдохновленный");
+        f1.setInspiredMovementDistance(3);
+        f1.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_3.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+    
+        //Fighter - The Prince of Dust
+        Fighter f2 = new Fighter();
+        f2.setName("Принц Пыли");
+        f2.setIconPath("ic_warband_sepulchral_guard_2");
+        f2.setCardPath("card_sepulchral_guard_2");
+        f2.setInspiredStateCardPath("card_sepulchral_guard_2_inspired");
+        f2.setInspirationStateDescription("Этот боец возвращается на поле боя");
+        f2.setHealth(3);
+    
+        f2.setDefenceStyle("evasion");
+    
+        f2.setMovementDistance(2);
+        f2.setDefenceValue(1);
+    
+        f2.setInspiredName("Принц Вдохновленный");
+        f2.setInspiredMovementDistance(3);
+        f2.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_3.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+    
+        //Fighter - The Harvester
+        Fighter f3 = new Fighter();
+        f3.setName("Жнец");
+        f3.setIconPath("ic_warband_sepulchral_guard_3");
+        f3.setCardPath("card_sepulchral_guard_3");
+        f3.setInspiredStateCardPath("card_sepulchral_guard_3_inspired");
+        f3.setInspirationStateDescription("Этот боец возвращается на поле боя");
+        f3.setHealth(3);
+    
+        f3.setDefenceStyle("evasion");
+        
+        f3.setMovementDistance(2);
+        f3.setDefenceValue(1);
+    
+        f3.setInspiredName("Жнец Вдохновленный");
+        f3.setInspiredMovementDistance(3);
+        f3.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_3.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+    
+        //Fighter - The Champion
+        Fighter f4 = new Fighter();
+        f4.setName("Чемпион");
+        f4.setIconPath("ic_warband_sepulchral_guard_4");
+        f4.setCardPath("card_sepulchral_guard_4");
+        f4.setInspiredStateCardPath("card_sepulchral_guard_4_inspired");
+        f4.setInspirationStateDescription("Этот боец возвращается на поле боя");
+        f4.setHealth(3);
+    
+        f4.setDefenceStyle("evasion");
+    
+        f4.setMovementDistance(2);
+        f4.setDefenceValue(1);
+    
+        f4.setInspiredName("Чемпион Вдохновленный");
+        f4.setInspiredMovementDistance(3);
+        f4.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_3.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+    
+        //Fighter - Petitioner 1
+        Fighter f5 = new Fighter();
+        f5.setName("Проситель");
+        f5.setIconPath("ic_warband_sepulchral_guard_5");
+        f5.setCardPath("card_sepulchral_guard_5");
+        f5.setInspiredStateCardPath("card_sepulchral_guard_5_inspired");
+        f5.setInspirationStateDescription("Этот боец возвращается на поле боя");
+        f5.setHealth(2);
+    
+        f5.setDefenceStyle("evasion");
+        
+        f5.setMovementDistance(2);
+        f5.setDefenceValue(1);
+    
+        f5.setInspiredName("Вдохновленный Проситель");
+        f5.setInspiredMovementDistance(3);
+        f5.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f5);
+        f5.setWarbandId(warband_3.getId());
+        mDatabase.copyToRealmOrUpdate(f5);
+    
+        //Fighter - Petitioner 2
+        Fighter f6 = new Fighter();
+        f6.setName("Проситель");
+        f6.setIconPath("ic_warband_sepulchral_guard_6");
+        f6.setCardPath("card_sepulchral_guard_6");
+        f6.setInspiredStateCardPath("card_sepulchral_guard_6_inspired");
+        f6.setInspirationStateDescription("Этот боец возвращается на поле боя");
+        f6.setHealth(2);
+    
+        f6.setDefenceStyle("evasion");
+    
+        f6.setMovementDistance(2);
+        f6.setDefenceValue(1);
+    
+        f6.setInspiredName("Вдохновленный Проситель");
+        f6.setInspiredMovementDistance(3);
+        f6.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f6);
+        f6.setWarbandId(warband_3.getId());
+        mDatabase.copyToRealmOrUpdate(f6);
+    
+        //Fighter - Petitioner 3
+        Fighter f7 = new Fighter();
+        f7.setName("Проситель");
+        f7.setIconPath("ic_warband_sepulchral_guard_7");
+        f7.setCardPath("card_sepulchral_guard_7");
+        f7.setInspiredStateCardPath("card_sepulchral_guard_7_inspired");
+        f7.setInspirationStateDescription("Этот боец возвращается на поле боя");
+        f7.setHealth(2);
+    
+        f7.setDefenceStyle("evasion");
+    
+        f7.setMovementDistance(2);
+        f7.setDefenceValue(1);
+    
+        f7.setInspiredName("Вдохновленный Проситель");
+        f7.setInspiredMovementDistance(3);
+        f7.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f7);
+        f7.setWarbandId(warband_3.getId());
+        mDatabase.copyToRealmOrUpdate(f7);
+    
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_4(){
+        mDatabase.beginTransaction();
+    
+        //Warband - The Farstriders
+        Warband warband_4 = new Warband();
+        warband_4.setName(mContext.getResources().getString(R.string.the_farstriders_warband_name));
+        warband_4.setDescription(mContext.getResources().getString(R.string.the_farstriders_warband_description));
+        warband_4.setIconPath(mContext.getResources().getString(R.string.the_farstriders_warband_icon_path));
+        mDatabase.insert(warband_4);
+    
+        //Fighter - Sanson Farstrider
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Сансон Странник");
+        f1.setIconPath("ic_warband_the_farstriders_1");
+        f1.setCardPath("card_the_farstriders_1");
+        f1.setInspiredStateCardPath("card_the_farstriders_1_inspired");
+        f1.setInspirationStateDescription("Этот боец заканчивает фазу действия на вражеской территории");
+        f1.setHealth(4);
+    
+        f1.setDefenceStyle("block");
+    
+        f1.setMovementDistance(4);
+        f1.setDefenceValue(1);
+    
+        f1.setInspiredName("Странник Вдохновленный");
+        f1.setInspiredMovementDistance(4);
+        f1.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_4.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+    
+        //Fighter - Almeric Eagle-Eye
+        Fighter f2 = new Fighter();
+        f2.setName("Алмерик Орлиный Глаз");
+        f2.setIconPath("ic_warband_the_farstriders_2");
+        f2.setCardPath("card_the_farstriders_2");
+        f2.setInspiredStateCardPath("card_the_farstriders_2_inspired");
+        f2.setInspirationStateDescription("Этот боец заканчивает фазу действия на вражеской территории");
+        f2.setHealth(4);
+    
+        f2.setDefenceStyle("block");
+    
+        f2.setMovementDistance(3);
+        f2.setDefenceValue(1);
+    
+        f2.setInspiredName("Орлиный Глаз Вдохновленный");
+        f2.setInspiredMovementDistance(3);
+        f2.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_4.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+    
+        //Fighter - Elias Swiftblade
+        Fighter f3 = new Fighter();
+        f3.setName("Элиас Быстрый Клинок");
+        f3.setIconPath("ic_warband_the_farstriders_3");
+        f3.setCardPath("card_the_farstriders_3");
+        f3.setInspiredStateCardPath("card_the_farstriders_3_inspired");
+        f3.setInspirationStateDescription("Этот боец заканчивает фазу действия на вражеской территории");
+        f3.setHealth(4);
+    
+        f3.setDefenceStyle("block");
+    
+        f3.setMovementDistance(3);
+        f3.setDefenceValue(1);
+    
+        f3.setInspiredName("Быстрый Клинок Вдохновленный");
+        f3.setInspiredMovementDistance(3);
+        f3.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_4.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+        
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_5(){
+        mDatabase.beginTransaction();
+        
+        //Warband - Magore's Fiends
+        Warband warband_5 = new Warband();
+        warband_5.setName(mContext.getResources().getString(R.string.magores_fiends_warband_name));
+        warband_5.setDescription(mContext.getResources().getString(R.string.magores_fiends_warband_description));
+        warband_5.setIconPath(mContext.getResources().getString(R.string.magores_fiends_warband_icon_path));
+        mDatabase.insert(warband_5);
+    
+        //Fighter - Magore Redhand
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Магор Красная Рука");
+        f1.setIconPath("ic_warband_magores_fiends_1");
+        f1.setCardPath("card_magores_fiends_1");
+        f1.setInspiredStateCardPath("card_magores_fiends_1_inspired");
+        f1.setInspirationStateDescription("Одно из действий «Атака» этого бойца достигает цели");
+        f1.setHealth(4);
+    
+        f1.setDefenceStyle("block");
+    
+        f1.setMovementDistance(3);
+        f1.setDefenceValue(1);
+    
+        f1.setInspiredName("Магор Вдохновленный");
+        f1.setInspiredMovementDistance(4);
+        f1.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_5.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+
+    
+        //Fighter - Riptooth
+        Fighter f2 = new Fighter();
+        f2.setName("Клыкарь");
+        f2.setIconPath("ic_warband_magores_fiends_2");
+        f2.setCardPath("card_magores_fiends_2");
+        f2.setInspiredStateCardPath("card_magores_fiends_2_inspired");
+        f2.setInspirationStateDescription("Одно из действий «Атака» этого бойца достигает цели");
+        f2.setHealth(4);
+    
+        f2.setDefenceStyle("evasion");
+    
+        f2.setMovementDistance(4);
+        f2.setDefenceValue(1);
+    
+        f2.setInspiredName("Клыкарь Вдохновленный");
+        f2.setInspiredMovementDistance(5);
+        f2.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_5.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+    
+        //Fighter - Ghartok Flayskull
+        Fighter f3 = new Fighter();
+        f3.setName("Гарток Сдиратель Черепов");
+        f3.setIconPath("ic_warband_magores_fiends_3");
+        f3.setCardPath("card_magores_fiends_3");
+        f3.setInspiredStateCardPath("card_magores_fiends_3_inspired");
+        f3.setInspirationStateDescription("Одно из действий «Атака» этого бойца достигает цели");
+        f3.setHealth(4);
+    
+        f3.setDefenceStyle("block");
+    
+        f3.setMovementDistance(3);
+        f3.setDefenceValue(1);
+    
+        f3.setInspiredName("Гарток Вдохновленный");
+        f3.setInspiredMovementDistance(4);
+        f3.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_5.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+    
+        //Fighter - Zharkus the Bloodsighted
+        Fighter f4 = new Fighter();
+        f4.setName("Заркус Кровавый Взор");
+        f4.setIconPath("ic_warband_magores_fiends_4");
+        f4.setCardPath("card_magores_fiends_4");
+        f4.setInspiredStateCardPath("card_magores_fiends_4_inspired");
+        f4.setInspirationStateDescription("Одно из действий «Атака» этого бойца достигает цели");
+        f4.setHealth(4);
+    
+        f4.setDefenceStyle("block");
+    
+        f4.setMovementDistance(3);
+        f4.setDefenceValue(1);
+    
+        f4.setInspiredName("Заркус Вдохновленный");
+        f4.setInspiredMovementDistance(4);
+        f4.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_5.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+        
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_6(){
+        mDatabase.beginTransaction();
+    
+        //Warband - Stormsire's Cursebreakers
+        Warband warband_6 = new Warband();
+        warband_6.setName(mContext.getResources().getString(R.string.stormsires_cursebreakers_warband_name));
+        warband_6.setDescription(mContext.getResources().getString(R.string.stormsires_cursebreakers_warband_description));
+        warband_6.setIconPath(mContext.getResources().getString(R.string.stormsires_cursebreakers_warband_icon_path));
+        mDatabase.insert(warband_6);
+    
+        //Fighter - Averon Stormsire
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Аверон Отец Грозы");
+        f1.setIconPath("ic_warband_stormsires_cursebreakers_1");
+        f1.setCardPath("card_stormsires_cursebreakers_1");
+        f1.setInspiredStateCardPath("card_stormsires_cursebreakers_1_inspired");
+        f1.setInspirationStateDescription("Этот боец успешно сотворяет заклинание.");
+        f1.setHealth(4);
+    
+        f1.setDefenceStyle("block");
+    
+        f1.setMovementDistance(3);
+        f1.setDefenceValue(1);
+    
+        f1.setInspiredName("Отец Грозы Вдохновленный");
+        f1.setInspiredMovementDistance(3);
+        f1.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_6.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+    
+        //Fighter - Ammis Dawnguard
+        Fighter f2 = new Fighter();
+        f2.setName("Аммис Страж Рассвета");
+        f2.setIconPath("ic_warband_stormsires_cursebreakers_2");
+        f2.setCardPath("card_stormsires_cursebreakers_2");
+        f2.setInspiredStateCardPath("card_stormsires_cursebreakers_2_inspired");
+        f2.setInspirationStateDescription("Этот боец успешно сотворяет заклинание.");
+        f2.setHealth(4);
+    
+        f2.setDefenceStyle("block");
+        
+        f2.setMovementDistance(3);
+        f2.setDefenceValue(1);
+        
+        f2.setInspiredName("Страж Рассвета Вдохновленный");
+        f2.setInspiredMovementDistance(3);
+        f2.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_6.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+        
+        //Fighter - Rastus the Charmed
+        Fighter f3 = new Fighter();
+        f3.setName("Растус Зачарованный");
+        f3.setIconPath("ic_warband_stormsires_cursebreakers_3");
+        f3.setCardPath("card_stormsires_cursebreakers_3");
+        f3.setInspiredStateCardPath("card_stormsires_cursebreakers_3_inspired");
+        f3.setInspirationStateDescription("Этот боец успешно сотворяет заклинание.");
+        f3.setHealth(4);
+        
+        f3.setDefenceStyle("block");
+        
+        f3.setMovementDistance(3);
+        f3.setDefenceValue(1);
+        
+        f3.setInspiredName("Растус Вдохновленный");
+        f3.setInspiredMovementDistance(3);
+        f3.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_6.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+        
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_7(){
+        mDatabase.beginTransaction();
+    
+        //Warband - Thorns of the Briar Queen
+        Warband warband_7 = new Warband();
+        warband_7.setName(mContext.getResources().getString(R.string.thorns_of_the_briar_queen_warband_name));
+        warband_7.setDescription(mContext.getResources().getString(R.string.thorns_of_the_briar_queen_warband_description));
+        warband_7.setIconPath(mContext.getResources().getString(R.string.thorns_of_the_briar_queen_warband_icon_path));
+        mDatabase.insert(warband_7);
+    
+        //Fighter - Briar Queen
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Вересковая Королева");
+        f1.setIconPath("ic_warband_thorns_of_the_briar_queen_1");
+        f1.setCardPath("card_thorns_of_the_briar_queen_1");
+        f1.setInspiredStateCardPath("card_thorns_of_the_briar_queen_1_inspired");
+        f1.setInspirationStateDescription("Этот боец расположен смежно с вражеским бойцом в начале вашей активации");
+        f1.setHealth(4);
+    
+        f1.setDefenceStyle("evasion");
+    
+        f1.setMovementDistance(3);
+        f1.setDefenceValue(2);
+    
+        f1.setInspiredName("Вересковая Королева Вдохновленная");
+        f1.setInspiredMovementDistance(4);
+        f1.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_7.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+    
+        //Fighter - Varclav the Cruel
+        Fighter f2 = new Fighter();
+        f2.setName("Варклав Жестокий");
+        f2.setIconPath("ic_warband_thorns_of_the_briar_queen_2");
+        f2.setCardPath("card_thorns_of_the_briar_queen_2");
+        f2.setInspiredStateCardPath("card_thorns_of_the_briar_queen_2_inspired");
+        f2.setInspirationStateDescription("Этот боец расположен смежно с вражеским бойцом в начале вашей активации");
+        f2.setHealth(4);
+    
+        f2.setDefenceStyle("evasion");
+    
+        f2.setMovementDistance(3);
+        f2.setDefenceValue(2);
+    
+        f2.setInspiredName("Варклав Вдохновленный");
+        f2.setInspiredMovementDistance(4);
+        f2.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_7.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+    
+        //Fighter - The Ever-Hanged
+        Fighter f3 = new Fighter();
+        f3.setName("Вечный Висельник");
+        f3.setIconPath("ic_warband_thorns_of_the_briar_queen_3");
+        f3.setCardPath("card_thorns_of_the_briar_queen_3");
+        f3.setInspiredStateCardPath("card_thorns_of_the_briar_queen_3_inspired");
+        f3.setInspirationStateDescription("Этот боец расположен смежно с вражеским бойцом в начале вашей активации");
+        f3.setHealth(3);
+    
+        f3.setDefenceStyle("evasion");
+    
+        f3.setMovementDistance(4);
+        f3.setDefenceValue(1);
+    
+        f3.setInspiredName("Вечный Висельник Вдохновленный");
+        f3.setInspiredMovementDistance(4);
+        f3.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_7.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+    
+        //Fighter - Chainrasp 1
+        Fighter f4 = new Fighter();
+        f4.setName("Скрежет Цепей");
+        f4.setIconPath("ic_warband_thorns_of_the_briar_queen_4");
+        f4.setCardPath("card_thorns_of_the_briar_queen_4");
+        f4.setInspiredStateCardPath("card_thorns_of_the_briar_queen_4_inspired");
+        f4.setInspirationStateDescription("Этот боец расположен смежно с вражеским бойцом в начале вашей активации");
+        f4.setHealth(2);
+    
+        f4.setDefenceStyle("evasion");
+    
+        f4.setMovementDistance(3);
+        f4.setDefenceValue(1);
+    
+        f4.setInspiredName("Скрежет Цепей Вдохновленный");
+        f4.setInspiredMovementDistance(4);
+        f4.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_7.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+    
+        //Fighter - Chainrasp 2
+        Fighter f5 = new Fighter();
+        f5.setName("Скрежет Цепей");
+        f5.setIconPath("ic_warband_thorns_of_the_briar_queen_5");
+        f5.setCardPath("card_thorns_of_the_briar_queen_5");
+        f5.setInspiredStateCardPath("card_thorns_of_the_briar_queen_5_inspired");
+        f5.setInspirationStateDescription("Этот боец расположен смежно с вражеским бойцом в начале вашей активации");
+        f5.setHealth(2);
+    
+        f5.setDefenceStyle("evasion");
+    
+        f5.setMovementDistance(3);
+        f5.setDefenceValue(1);
+    
+        f5.setInspiredName("Скрежет Цепей Вдохновленный");
+        f5.setInspiredMovementDistance(4);
+        f5.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f5);
+        f5.setWarbandId(warband_7.getId());
+        mDatabase.copyToRealmOrUpdate(f5);
+    
+        //Fighter - Chainrasp 3
+        Fighter f6 = new Fighter();
+        f6.setName("Скрежет Цепей");
+        f6.setIconPath("ic_warband_thorns_of_the_briar_queen_6");
+        f6.setCardPath("card_thorns_of_the_briar_queen_6");
+        f6.setInspiredStateCardPath("card_thorns_of_the_briar_queen_6_inspired");
+        f6.setInspirationStateDescription("Этот боец расположен смежно с вражеским бойцом в начале вашей активации");
+        f6.setHealth(2);
+    
+        f6.setDefenceStyle("evasion");
+    
+        f6.setMovementDistance(3);
+        f6.setDefenceValue(1);
+    
+        f6.setInspiredName("Скрежет Цепей Вдохновленный");
+        f6.setInspiredMovementDistance(4);
+        f6.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f6);
+        f6.setWarbandId(warband_7.getId());
+        mDatabase.copyToRealmOrUpdate(f6);
+    
+        //Fighter - Chainrasp 4
+        Fighter f7 = new Fighter();
+        f7.setName("Скрежет Цепей");
+        f7.setIconPath("ic_warband_thorns_of_the_briar_queen_7");
+        f7.setCardPath("card_thorns_of_the_briar_queen_7");
+        f7.setInspiredStateCardPath("card_thorns_of_the_briar_queen_7_inspired");
+        f7.setInspirationStateDescription("Этот боец расположен смежно с вражеским бойцом в начале вашей активации");
+        f7.setHealth(2);
+    
+        f7.setDefenceStyle("evasion");
+    
+        f7.setMovementDistance(3);
+        f7.setDefenceValue(1);
+    
+        f7.setInspiredName("Скрежет Цепей Вдохновленный");
+        f7.setInspiredMovementDistance(4);
+        f7.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f7);
+        f7.setWarbandId(warband_7.getId());
+        mDatabase.copyToRealmOrUpdate(f7);
+        
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_8(){
+        mDatabase.beginTransaction();
+    
+        //Warband - The Chosen Axes
+        Warband warband_8 = new Warband();
+        warband_8.setName(mContext.getResources().getString(R.string.the_chosen_axes_warband_name));
+        warband_8.setDescription(mContext.getResources().getString(R.string.the_chosen_axes_warband_description));
+        warband_8.setIconPath(mContext.getResources().getString(R.string.the_chosen_axes_warband_icon_path));
+        mDatabase.insert(warband_8);
+    
+        //Fighter - Fjul-Grimnir
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Фьюл-Гримнир");
+        f1.setIconPath("ic_warband_the_chosen_axes_1");
+        f1.setCardPath("card_the_chosen_axes_1");
+        f1.setInspiredStateCardPath("card_the_chosen_axes_1_inspired");
+        f1.setInspirationStateDescription("Этот боец удерживает цель в конце фазы действия");
+        f1.setHealth(4);
+    
+        f1.setDefenceStyle("block");
+    
+        f1.setMovementDistance(2);
+        f1.setDefenceValue(1);
+    
+        f1.setInspiredName("Фьюл-Гримнир Вдохновленный");
+        f1.setInspiredHealth(5);
+        f1.setInspiredMovementDistance(3);
+        f1.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_8.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+    
+        //Fighter - Tefk Flamebearer
+        Fighter f2 = new Fighter();
+        f2.setName("Тэфк-Огненосец");
+        f2.setIconPath("ic_warband_the_chosen_axes_2");
+        f2.setCardPath("card_the_chosen_axes_2");
+        f2.setInspiredStateCardPath("card_the_chosen_axes_2_inspired");
+        f2.setInspirationStateDescription("Этот боец удерживает цель в конце фазы действия");
+        f2.setHealth(3);
+    
+        f2.setDefenceStyle("block");
+    
+        f2.setMovementDistance(2);
+        f2.setDefenceValue(1);
+    
+        f2.setInspiredName("Тэфк Вдохновленный");
+        f2.setInspiredHealth(4);
+        f2.setInspiredMovementDistance(3);
+        f2.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_8.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+    
+        //Fighter - Mad Maegrim
+        Fighter f3 = new Fighter();
+        f3.setName("Безумный Маэгрим");
+        f3.setIconPath("ic_warband_the_chosen_axes_3");
+        f3.setCardPath("card_the_chosen_axes_3");
+        f3.setInspiredStateCardPath("card_the_chosen_axes_3_inspired");
+        f3.setInspirationStateDescription("Этот боец удерживает цель в конце фазы действия");
+        f3.setHealth(3);
+    
+        f3.setDefenceStyle("block");
+    
+        f3.setMovementDistance(2);
+        f3.setDefenceValue(1);
+    
+        f3.setInspiredName("Маэгрим Вдохновленный");
+        f3.setInspiredHealth(4);
+        f3.setInspiredMovementDistance(3);
+        f3.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_8.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+    
+        //Fighter - Vol Orrukbane
+        Fighter f4 = new Fighter();
+        f4.setName("Вол Орручья Погибель");
+        f4.setIconPath("ic_warband_the_chosen_axes_4");
+        f4.setCardPath("card_the_chosen_axes_4");
+        f4.setInspiredStateCardPath("card_the_chosen_axes_4_inspired");
+        f4.setInspirationStateDescription("Этот боец удерживает цель в конце фазы действия");
+        f4.setHealth(3);
+    
+        f4.setDefenceStyle("block");
+    
+        f4.setMovementDistance(2);
+        f4.setDefenceValue(1);
+    
+        f4.setInspiredName("Вол Вдохновленный");
+        f4.setInspiredHealth(4);
+        f4.setInspiredMovementDistance(3);
+        f4.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_8.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+        
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_9(){
+        mDatabase.beginTransaction();
+    
+        //Warband - Spiteclaw's Swarm
+        Warband warband_9 = new Warband();
+        warband_9.setName(mContext.getResources().getString(R.string.spiteclaws_swarm_warband_name));
+        warband_9.setDescription(mContext.getResources().getString(R.string.spiteclaws_swarm_warband_description));
+        warband_9.setIconPath(mContext.getResources().getString(R.string.spiteclaws_swarm_warband_icon_path));
+        mDatabase.insert(warband_9);
+    
+        //Fighter - Skritch Spiteclaw
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Скритч Злой Коготь");
+        f1.setIconPath("ic_warband_spiteclaws_swarm_1");
+        f1.setCardPath("card_spiteclaws_swarm_1");
+        f1.setInspiredStateCardPath("card_spiteclaws_swarm_1_inspired");
+        f1.setInspirationStateDescription("Игрок выбирает этого бойца, когда использует уловку");
+        f1.setHealth(4);
+    
+        f1.setDefenceStyle("evasion");
+    
+        f1.setMovementDistance(5);
+        f1.setDefenceValue(1);
+    
+        f1.setInspiredName("Скритч Вдохновленный");
+        f1.setInspiredMovementDistance(5);
+        f1.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_9.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+    
+        //Fighter - Krrk the Almost-trusted
+        Fighter f2 = new Fighter();
+        f2.setName("Кррк Почти-честный");
+        f2.setIconPath("ic_warband_spiteclaws_swarm_2");
+        f2.setCardPath("card_spiteclaws_swarm_2");
+        f2.setInspiredStateCardPath("card_spiteclaws_swarm_2_inspired");
+        f2.setInspirationStateDescription("Игрок выбирает этого бойца, когда использует уловку");
+        f2.setHealth(3);
+    
+        f2.setDefenceStyle("block");
+    
+        f2.setMovementDistance(5);
+        f2.setDefenceValue(1);
+    
+        f2.setInspiredName("Кррк Вдохновленный");
+        f2.setInspiredMovementDistance(5);
+        f2.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_9.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+    
+        //Fighter - Lurking Skaven
+        Fighter f3 = new Fighter();
+        f3.setName("Затаившийся Скавен");
+        f3.setIconPath("ic_warband_spiteclaws_swarm_3");
+        f3.setCardPath("card_spiteclaws_swarm_3");
+        f3.setInspiredStateCardPath("card_spiteclaws_swarm_3_inspired");
+        f3.setInspirationStateDescription("Игрок выбирает этого бойца, когда использует уловку");
+        f3.setHealth(2);
+    
+        f3.setDefenceStyle("evasion");
+    
+        f3.setMovementDistance(5);
+        f3.setDefenceValue(2);
+    
+        f3.setInspiredName("Затаившийся Скавен Вдохновленный");
+        f3.setInspiredMovementDistance(5);
+        f3.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_9.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+    
+        //Fighter - Hungering Skaven
+        Fighter f4 = new Fighter();
+        f4.setName("Голодный Скавен");
+        f4.setIconPath("ic_warband_spiteclaws_swarm_4");
+        f4.setCardPath("card_spiteclaws_swarm_4");
+        f4.setInspiredStateCardPath("card_spiteclaws_swarm_4_inspired");
+        f4.setInspirationStateDescription("Игрок выбирает этого бойца, когда использует уловку");
+        f4.setHealth(2);
+    
+        f4.setDefenceStyle("evasion");
+    
+        f4.setMovementDistance(5);
+        f4.setDefenceValue(1);
+    
+        f4.setInspiredName("Голодный Скавен Вдохновленный");
+        f4.setInspiredMovementDistance(5);
+        f4.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_9.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+    
+        //Fighter - Festering Skaven
+        Fighter f5 = new Fighter();
+        f5.setName("Гнойный Скавен");
+        f5.setIconPath("ic_warband_spiteclaws_swarm_5");
+        f5.setCardPath("card_spiteclaws_swarm_5");
+        f5.setInspiredStateCardPath("card_spiteclaws_swarm_5_inspired");
+        f5.setInspirationStateDescription("Игрок выбирает этого бойца, когда использует уловку");
+        f5.setHealth(2);
+    
+        f5.setDefenceStyle("evasion");
+    
+        f5.setMovementDistance(5);
+        f5.setDefenceValue(1);
+    
+        f5.setInspiredName("Гнойный Скавен Вдохновленный");
+        f5.setInspiredMovementDistance(5);
+        f5.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f5);
+        f5.setWarbandId(warband_9.getId());
+        mDatabase.copyToRealmOrUpdate(f5);
+        
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_10(){
+        mDatabase.beginTransaction();
+    
+        //Warband - Ironskulls Boyz
+        Warband warband_10 = new Warband();
+        warband_10.setName(mContext.getResources().getString(R.string.ironskulls_boyz_warband_name));
+        warband_10.setDescription(mContext.getResources().getString(R.string.ironskulls_boyz_warband_description));
+        warband_10.setIconPath(mContext.getResources().getString(R.string.ironskulls_boyz_warband_icon_path));
+        mDatabase.insert(warband_10);
+    
+        //Fighter - Gurzag Ironskull
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Гурзаг Железный Череп");
+        f1.setIconPath("ic_warband_ironskulls_boyz_1");
+        f1.setCardPath("card_ironskulls_boyz_1");
+        f1.setInspiredStateCardPath("card_ironskulls_boyz_1_inspired");
+        f1.setInspirationStateDescription("Этому бойцу нанесен урон");
+        f1.setHealth(5);
+    
+        f1.setDefenceStyle("block");
+    
+        f1.setMovementDistance(3);
+        f1.setDefenceValue(1);
+    
+        f1.setInspiredName("Гурзаг Вдохновленный");
+        f1.setInspiredMovementDistance(3);
+        f1.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_10.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+    
+        //Fighter - Bonekutta
+        Fighter f2 = new Fighter();
+        f2.setName("Костерез");
+        f2.setIconPath("ic_warband_ironskulls_boyz_2");
+        f2.setCardPath("card_ironskulls_boyz_2");
+        f2.setInspiredStateCardPath("card_ironskulls_boyz_2_inspired");
+        f2.setInspirationStateDescription("Этому бойцу нанесен урон");
+        f2.setHealth(4);
+    
+        f2.setDefenceStyle("block");
+    
+        f2.setMovementDistance(3);
+        f2.setDefenceValue(1);
+    
+        f2.setInspiredName("Костерез Вдохновленный");
+        f2.setInspiredMovementDistance(3);
+        f2.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_10.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+    
+        //Fighter - Basha
+        Fighter f3 = new Fighter();
+        f3.setName("Громила");
+        f3.setIconPath("ic_warband_ironskulls_boyz_3");
+        f3.setCardPath("card_ironskulls_boyz_3");
+        f3.setInspiredStateCardPath("card_ironskulls_boyz_3_inspired");
+        f3.setInspirationStateDescription("Этому бойцу нанесен урон");
+        f3.setHealth(4);
+    
+        f3.setDefenceStyle("block");
+    
+        f3.setMovementDistance(3);
+        f3.setDefenceValue(1);
+    
+        f3.setInspiredName("Громила Вдохновленный");
+        f3.setInspiredMovementDistance(3);
+        f3.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_10.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+    
+        //Fighter - Hakka
+        Fighter f4 = new Fighter();
+        f4.setName("Крошила");
+        f4.setIconPath("ic_warband_ironskulls_boyz_4");
+        f4.setCardPath("card_ironskulls_boyz_4");
+        f4.setInspiredStateCardPath("card_ironskulls_boyz_4_inspired");
+        f4.setInspirationStateDescription("Этому бойцу нанесен урон");
+        f4.setHealth(4);
+    
+        f4.setDefenceStyle("block");
+    
+        f4.setMovementDistance(3);
+        f4.setDefenceValue(1);
+    
+        f4.setInspiredName("Крошила Вдохновленный");
+        f4.setInspiredMovementDistance(3);
+        f4.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_10.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+        
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_11(){
+        mDatabase.beginTransaction();
+    
+        //Warband - Zarbags Gitz
+        Warband warband_11 = new Warband();
+        warband_11.setName(mContext.getResources().getString(R.string.zarbags_gitz_warband_name));
+        warband_11.setDescription(mContext.getResources().getString(R.string.zarbags_gitz_warband_description));
+        warband_11.setIconPath(mContext.getResources().getString(R.string.zarbags_gitz_warband_icon_path));
+        mDatabase.insert(warband_11);
+    
+        //Fighter - Zarbag
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Зарбаг");
+        f1.setIconPath("ic_warband_zarbags_gitz_1");
+        f1.setCardPath("card_zarbags_gitz_1");
+        f1.setInspiredStateCardPath("card_zarbags_gitz_1_inspired");
+        f1.setInspirationStateDescription("У вас не менее 3 очков славы");
+        f1.setHealth(3);
+    
+        f1.setDefenceStyle("evasion");
+        
+        f1.setMovementDistance(3);
+        f1.setDefenceValue(2);
+    
+        f1.setInspiredName("Зарбаг Вдохновленный");
+        f1.setInspiredMovementDistance(4);
+        f1.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_11.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+    
+        //Fighter - Drizgit da Squig Herder
+        Fighter f2 = new Fighter();
+        f2.setName("Дризгит Сквиговод");
+        f2.setIconPath("ic_warband_zarbags_gitz_2");
+        f2.setCardPath("card_zarbags_gitz_2");
+        f2.setInspiredStateCardPath("card_zarbags_gitz_2_inspired");
+        f2.setInspirationStateDescription("У вас не менее 3 очков славы");
+        f2.setHealth(3);
+        
+        f2.setDefenceStyle("block");
+    
+        f2.setMovementDistance(3);
+        f2.setDefenceValue(1);
+    
+        f2.setInspiredName("Дризгит Вдохновленный");
+        f2.setInspiredMovementDistance(4);
+        f2.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_11.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+    
+        //Fighter - Bonekrakka
+        Fighter f3 = new Fighter();
+        f3.setName("Костелом (Сквиг)");
+        f3.setIconPath("ic_warband_zarbags_gitz_3");
+        f3.setCardPath("card_zarbags_gitz_3");
+        f3.setInspiredStateCardPath("card_zarbags_gitz_3_inspired");
+        f3.setInspirationStateDescription("Дружественный Дризгит вне игры");
+        f3.setHealth(2);
+    
+        f3.setDefenceStyle("evasion");
+    
+        f3.setMovementDistance(3);
+        f3.setDefenceValue(1);
+    
+        f3.setInspiredName("Костелом Вдохновленный (Сквиг)");
+        f3.setInspiredMovementDistance(3);
+        f3.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_11.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+    
+        //Fighter - Gobbaluk
+        Fighter f4 = new Fighter();
+        f4.setName("Гоббалук (Сквиг)");
+        f4.setIconPath("ic_warband_zarbags_gitz_4");
+        f4.setCardPath("card_zarbags_gitz_4");
+        f4.setInspiredStateCardPath("card_zarbags_gitz_4_inspired");
+        f4.setInspirationStateDescription("Дружественный Дризгит вне игры");
+        f4.setHealth(2);
+    
+        f4.setDefenceStyle("evasion");
+    
+        f4.setMovementDistance(3);
+        f4.setDefenceValue(1);
+    
+        f4.setInspiredName("Гоббалук Вдохновленный (Сквиг)");
+        f4.setInspiredMovementDistance(3);
+        f4.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_11.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+    
+        //Fighter - Snirk Sourtongue
+        Fighter f5 = new Fighter();
+        f5.setName("Снирк Кислый Язык");
+        f5.setIconPath("ic_warband_zarbags_gitz_5");
+        f5.setCardPath("card_zarbags_gitz_5");
+        f5.setInspiredStateCardPath("card_zarbags_gitz_5_inspired");
+        f5.setInspirationStateDescription("-");
+        f5.setHealth(3);
+    
+        f5.setDefenceStyle("evasion");
+    
+        f5.setMovementDistance(2);
+        f5.setDefenceValue(1);
+    
+        f5.setInspiredName("Кислый Язык Вдохновленный");
+        f5.setInspiredMovementDistance(0);
+        f5.setInspiredDefenceValue(3);
+
+        mDatabase.insert(f5);
+        f5.setWarbandId(warband_11.getId());
+        mDatabase.copyToRealmOrUpdate(f5);
+    
+        //Fighter - Prog da Netter
+        Fighter f6 = new Fighter();
+        f6.setName("Прог-Сетевик");
+        f6.setIconPath("ic_warband_zarbags_gitz_6");
+        f6.setCardPath("card_zarbags_gitz_6");
+        f6.setInspiredStateCardPath("card_zarbags_gitz_6_inspired");
+        f6.setInspirationStateDescription("У вас не менее 3 очков славы");
+        f6.setHealth(2);
+    
+        f6.setDefenceStyle("evasion");
+    
+        f6.setMovementDistance(3);
+        f6.setDefenceValue(1);
+    
+        f6.setInspiredName("Прог Вдохновленный");
+        f6.setInspiredMovementDistance(4);
+        f6.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f6);
+        f6.setWarbandId(warband_11.getId());
+        mDatabase.copyToRealmOrUpdate(f6);
+        
+        //Fighter - Stikkit
+        Fighter f7 = new Fighter();
+        f7.setName("Стиккит");
+        f7.setIconPath("ic_warband_zarbags_gitz_7");
+        f7.setCardPath("card_zarbags_gitz_7");
+        f7.setInspiredStateCardPath("card_zarbags_gitz_7_inspired");
+        f7.setInspirationStateDescription("У вас не менее 3 очков славы");
+        f7.setHealth(2);
+    
+        f7.setDefenceStyle("evasion");
+    
+        f7.setMovementDistance(3);
+        f7.setDefenceValue(1);
+    
+        f7.setInspiredName("Стиккит Вдохновленный");
+        f7.setInspiredMovementDistance(4);
+        f7.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f7);
+        f7.setWarbandId(warband_11.getId());
+        mDatabase.copyToRealmOrUpdate(f7);
+    
+        //Fighter - Redkap
+        Fighter f8 = new Fighter();
+        f8.setName("Красный Колпак");
+        f8.setIconPath("ic_warband_zarbags_gitz_8");
+        f8.setCardPath("card_zarbags_gitz_8");
+        f8.setInspiredStateCardPath("card_zarbags_gitz_8_inspired");
+        f8.setInspirationStateDescription("У вас не менее 3 очков славы");
+        f8.setHealth(2);
+    
+        f8.setDefenceStyle("evasion");
+    
+        f8.setMovementDistance(3);
+        f8.setDefenceValue(1);
+    
+        f8.setInspiredName("Красный Колпак Вдохновленный");
+        f8.setInspiredMovementDistance(4);
+        f8.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f8);
+        f8.setWarbandId(warband_11.getId());
+        mDatabase.copyToRealmOrUpdate(f8);
+    
+        //Fighter - Dibbz
+        Fighter f9 = new Fighter();
+        f9.setName("Диббз");
+        f9.setIconPath("ic_warband_zarbags_gitz_9");
+        f9.setCardPath("card_zarbags_gitz_9");
+        f9.setInspiredStateCardPath("card_zarbags_gitz_9_inspired");
+        f9.setInspirationStateDescription("У вас не менее 3 очков славы");
+        f9.setHealth(2);
+    
+        f9.setDefenceStyle("evasion");
+    
+        f9.setMovementDistance(3);
+        f9.setDefenceValue(1);
+    
+        f9.setInspiredName("Диббз Вдохновленный");
+        f9.setInspiredMovementDistance(4);
+        f9.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f9);
+        f9.setWarbandId(warband_11.getId());
+        mDatabase.copyToRealmOrUpdate(f9);
+        
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_12(){
+        mDatabase.beginTransaction();
+    
+        //Warband - Eyes of the Nine
+        Warband warband_12 = new Warband();
+        warband_12.setName(mContext.getResources().getString(R.string.eyes_of_the_nine_warband_name));
+        warband_12.setDescription(mContext.getResources().getString(R.string.eyes_of_the_nine_warband_description));
+        warband_12.setIconPath(mContext.getResources().getString(R.string.eyes_of_the_nine_warband_icon_path));
+        mDatabase.insert(warband_12);
+    
+        //Fighter - Vortemis the All-seeing
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Вортемис Всевидящий");
+        f1.setIconPath("ic_warband_the_eyes_of_the_nine_1");
+        f1.setCardPath("card_the_eyes_of_the_nine_1");
+        f1.setInspiredStateCardPath("card_the_eyes_of_the_nine_1_inspired");
+        f1.setInspirationStateDescription("Этот боец успешно выполняет действие «Атака» с Дальностью 3 или более");
+        f1.setHealth(4);
+    
+        f1.setDefenceStyle("evasion");
+    
+        f1.setMovementDistance(4);
+        f1.setDefenceValue(1);
+    
+        f1.setInspiredName("Вортемис Вдохновленный");
+        f1.setInspiredMovementDistance(4);
+        f1.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_12.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+    
+        //Fighter - K’charik
+        Fighter f2 = new Fighter();
+        f2.setName("К’чарик");
+        f2.setIconPath("ic_warband_the_eyes_of_the_nine_2");
+        f2.setCardPath("card_the_eyes_of_the_nine_2");
+        f2.setInspiredStateCardPath("card_the_eyes_of_the_nine_2_inspired");
+        f2.setInspirationStateDescription("Заклинание успешно сотворено смежным бойцом");
+        f2.setHealth(3);
+        
+        f2.setDefenceStyle("block");
+    
+        f2.setMovementDistance(4);
+        f2.setDefenceValue(1);
+    
+        f2.setInspiredName("К’чарик Вдохновленный");
+        f2.setInspiredMovementDistance(4);
+        f2.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_12.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+    
+        //Fighter - Narvia
+        Fighter f3 = new Fighter();
+        f3.setName("Нарвия");
+        f3.setIconPath("ic_warband_the_eyes_of_the_nine_3");
+        f3.setCardPath("card_the_eyes_of_the_nine_3");
+        f3.setInspiredStateCardPath("card_the_eyes_of_the_nine_3_inspired");
+        f3.setInspirationStateDescription("Этот боец успешно выполняет действие «Атака» с Дальностью 3 или более");
+        f3.setHealth(2);
+        
+        f3.setDefenceStyle("block");
+        
+        f3.setMovementDistance(4);
+        f3.setDefenceValue(1);
+    
+        f3.setInspiredName("Нарвия Вдохновленная");
+        f3.setInspiredMovementDistance(4);
+        f3.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_12.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+    
+        //Fighter - Turosh
+        Fighter f4 = new Fighter();
+        f4.setName("Турош");
+        f4.setIconPath("ic_warband_the_eyes_of_the_nine_4");
+        f4.setCardPath("card_the_eyes_of_the_nine_4");
+        f4.setInspiredStateCardPath("card_the_eyes_of_the_nine_4_inspired");
+        f4.setInspirationStateDescription("Этот боец успешно выполняет действие «Атака» с Дальностью 3 или более");
+        f4.setHealth(2);
+        
+        f4.setDefenceStyle("evasion");
+        
+        f4.setMovementDistance(4);
+        f4.setDefenceValue(1);
+    
+        f4.setInspiredName("Турош Вдохновленный");
+        f4.setInspiredMovementDistance(4);
+        f4.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_12.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+    
+        //Fighter - Blue Horror
+        Fighter f5 = new Fighter();
+        f5.setName("Синий Ужас");
+        f5.setIconPath("ic_warband_the_eyes_of_the_nine_5");
+        f5.setCardPath("card_the_eyes_of_the_nine_5");
+        f5.setInspiredStateCardPath("none");
+        f5.setInspirationStateDescription("none");
+        f5.setHealth(2);
+        
+        f5.setDefenceStyle("evasion");
+        
+        f5.setMovementDistance(3);
+        f5.setDefenceValue(1);
+    
+        f5.setInspiredName("none");
+        f5.setInspiredMovementDistance(0);
+        f5.setInspiredDefenceValue(0);
+
+        mDatabase.insert(f5);
+        f5.setWarbandId(warband_12.getId());
+        mDatabase.copyToRealmOrUpdate(f5);
+    
+        //Fighter - Brimstone Horrors
+        Fighter f6 = new Fighter();
+        f6.setName("Серные Ужасы");
+        f6.setIconPath("ic_warband_the_eyes_of_the_nine_6");
+        f6.setCardPath("card_the_eyes_of_the_nine_6");
+        f6.setInspiredStateCardPath("card_the_eyes_of_the_nine_6_inspired");
+        f6.setInspirationStateDescription("none");
+        f6.setHealth(1);
+        
+        f6.setDefenceStyle("evasion");
+        
+        f6.setMovementDistance(3);
+        f6.setDefenceValue(1);
+    
+        f6.setInspiredName("none");
+        f6.setInspiredMovementDistance(0);
+        f6.setInspiredDefenceValue(0);
+
+        mDatabase.insert(f6);
+        f6.setWarbandId(warband_12.getId());
+        mDatabase.copyToRealmOrUpdate(f6);
+    
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_13(){
+        mDatabase.beginTransaction();
+        
+        //Warband - Mollogs Mob
+        Warband warband_13 = new Warband();
+        warband_13.setName(mContext.getResources().getString(R.string.mollogs_mob_warband_name));
+        warband_13.setDescription(mContext.getResources().getString(R.string.mollogs_mob_warband_description));
+        warband_13.setIconPath(mContext.getResources().getString(R.string.mollogs_mob_warband_icon_path));
+        mDatabase.insert(warband_13);
+        
+        //Fighter - Mollog the Mighty
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Могучий Моллог");
+        f1.setIconPath("ic_warband_mollogs_mob_1");
+        f1.setCardPath("card_mollogs_mob_1");
+        f1.setInspiredStateCardPath("card_mollogs_mob_1_inspired");
+        f1.setInspirationStateDescription("На карте этого бойца лежат 3 или более жетона Ранений");
+        f1.setHealth(7);
+        
+        f1.setDefenceStyle("block");
+        
+        f1.setMovementDistance(3);
+        f1.setDefenceValue(1);
+        
+        f1.setInspiredName("Моллог Вдохновленный");
+        f1.setInspiredMovementDistance(3);
+        f1.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_13.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+    
+        //Fighter - Bat Squig
+        Fighter f2 = new Fighter();
+        f2.setName("Летучий Сквиг");
+        f2.setIconPath("ic_warband_mollogs_mob_2");
+        f2.setCardPath("card_mollogs_mob_2");
+        f2.setInspiredStateCardPath("card_mollogs_mob_2_inspired");
+        f2.setInspirationStateDescription("Имеются 3 или более жетонов Ранений на дружественной карте бойца Моллога.");
+        f2.setHealth(2);
+        
+        f2.setDefenceStyle("evasion");
+        
+        f2.setMovementDistance(4);
+        f2.setDefenceValue(2);
+    
+        f2.setInspiredName("Летучий Сквиг Вдохновленный");
+        f2.setInspiredMovementDistance(5);
+        f2.setInspiredDefenceValue(3);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_13.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+    
+        //Fighter - Spiteshroom
+        Fighter f3 = new Fighter();
+        f3.setName("Злогриб");
+        f3.setIconPath("ic_warband_mollogs_mob_3");
+        f3.setCardPath("card_mollogs_mob_3");
+        f3.setInspiredStateCardPath("card_mollogs_mob_3_inspired");
+        f3.setInspirationStateDescription("Имеются 3 или более жетонов Ранений на дружественной карте бойца Моллога.");
+        f3.setHealth(2);
+        
+        f3.setDefenceStyle("evasion");
+        
+        f3.setMovementDistance(2);
+        f3.setDefenceValue(1);
+    
+        f3.setInspiredName("Злогриб Вдохновленный");
+        f3.setInspiredMovementDistance(2);
+        f3.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_13.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+    
+        //Fighter - Stalagsquig
+        Fighter f4 = new Fighter();
+        f4.setName("Сталагосквиг");
+        f4.setIconPath("ic_warband_mollogs_mob_4");
+        f4.setCardPath("card_mollogs_mob_4");
+        f4.setInspiredStateCardPath("card_mollogs_mob_4_inspired");
+        f4.setInspirationStateDescription("Имеются 3 или более жетонов Ранений на дружественной карте бойца Моллога.");
+        f4.setHealth(2);
+        
+        f4.setDefenceStyle("block");
+        
+        f4.setMovementDistance(0);
+        f4.setDefenceValue(2);
+        
+        f4.setInspiredName("Сталагосквиг Вдохновленный");
+        f4.setInspiredMovementDistance(0);
+        f4.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_13.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+        
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_14(){
+        mDatabase.beginTransaction();
+    
+        //Warband - Godsworn Hunt
+        Warband warband_14 = new Warband();
+        warband_14.setName(mContext.getResources().getString(R.string.godsworn_hunt_warband_name));
+        warband_14.setDescription(mContext.getResources().getString(R.string.godsworn_hunt_warband_description));
+        warband_14.setIconPath(mContext.getResources().getString(R.string.godsworn_hunt_warband_icon_path));
+        mDatabase.insert(warband_14);
+        
+        //Fighter - Theddra Skull-scryer
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Зеддра Череповидица");
+        f1.setIconPath("ic_warband_godsworn_hunt_1");
+        f1.setCardPath("card_godsworn_hunt_1");
+        f1.setInspiredStateCardPath("card_godsworn_hunt_1_inspired");
+        f1.setInspirationStateDescription("Улучшение применяется к этому бойцу");
+        f1.setHealth(3);
+    
+        f1.setDefenceStyle("evasion");
+    
+        f1.setMovementDistance(4);
+        f1.setDefenceValue(1);
+    
+        f1.setInspiredName("Зеддра Вдохновленная");
+        f1.setInspiredMovementDistance(4);
+        f1.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_14.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+    
+        //Fighter - Grawl
+        Fighter f2 = new Fighter();
+        f2.setName("Гроул");
+        f2.setIconPath("ic_warband_godsworn_hunt_2");
+        f2.setCardPath("card_godsworn_hunt_2");
+        f2.setInspiredStateCardPath("card_godsworn_hunt_2_inspired");
+        f2.setInspirationStateDescription("Улучшение применяется к этому бойцу");
+        f2.setHealth(2);
+        
+        f2.setDefenceStyle("evasion");
+        
+        f2.setMovementDistance(4);
+        f2.setDefenceValue(1);
+        
+        f2.setInspiredName("Гроул Воодушевленный");
+        f2.setInspiredMovementDistance(5);
+        f2.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_14.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+    
+        //Fighter - Grundann Blood-eye
+        Fighter f3 = new Fighter();
+        f3.setName("Грунданн Кровавый Глаз");
+        f3.setIconPath("ic_warband_godsworn_hunt_3");
+        f3.setCardPath("card_godsworn_hunt_3");
+        f3.setInspiredStateCardPath("card_godsworn_hunt_3_inspired");
+        f3.setInspirationStateDescription("Улучшение применяется к этому бойцу");
+        f3.setHealth(3);
+    
+        f3.setDefenceStyle("evasion");
+    
+        f3.setMovementDistance(4);
+        f3.setDefenceValue(1);
+    
+        f3.setInspiredName("Грунданн Вдохновленный");
+        f3.setInspiredMovementDistance(5);
+        f3.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_14.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+    
+        //Fighter - Jagathra
+        Fighter f4 = new Fighter();
+        f4.setName("Джагатра");
+        f4.setIconPath("ic_warband_godsworn_hunt_4");
+        f4.setCardPath("card_godsworn_hunt_4");
+        f4.setInspiredStateCardPath("card_godsworn_hunt_4_inspired");
+        f4.setInspirationStateDescription("Улучшение применяется к этому бойцу");
+        f4.setHealth(2);
+    
+        f4.setDefenceStyle("evasion");
+    
+        f4.setMovementDistance(4);
+        f4.setDefenceValue(1);
+    
+        f4.setInspiredName("Джагатра Вдохновленная");
+        f4.setInspiredMovementDistance(5);
+        f4.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_14.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+    
+        //Fighter - Ollo
+        Fighter f5 = new Fighter();
+        f5.setName("Олло");
+        f5.setIconPath("ic_warband_godsworn_hunt_5");
+        f5.setCardPath("card_godsworn_hunt_5");
+        f5.setInspiredStateCardPath("card_godsworn_hunt_5_inspired");
+        f5.setInspirationStateDescription("Улучшение применяется к этому бойцу");
+        f5.setHealth(2);
+    
+        f5.setDefenceStyle("evasion");
+    
+        f5.setMovementDistance(4);
+        f5.setDefenceValue(1);
+        
+        f5.setInspiredName("Олло Вдохновленный");
+        f5.setInspiredMovementDistance(4);
+        f5.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f5);
+        f5.setWarbandId(warband_14.getId());
+        mDatabase.copyToRealmOrUpdate(f5);
+        
+        //Fighter - Shond Head-claimer
+        Fighter f6 = new Fighter();
+        f6.setName("Шонд Головоруб");
+        f6.setIconPath("ic_warband_godsworn_hunt_6");
+        f6.setCardPath("card_godsworn_hunt_6");
+        f6.setInspiredStateCardPath("card_godsworn_hunt_6_inspired");
+        f6.setInspirationStateDescription("Улучшение применяется к этому бойцу");
+        f6.setHealth(3);
+        
+        f6.setDefenceStyle("evasion");
+        
+        f6.setMovementDistance(4);
+        f6.setDefenceValue(1);
+    
+        f6.setInspiredName("Шонд Вдохновленный");
+        f6.setInspiredDefenceStyle("block");
+        f6.setInspiredMovementDistance(4);
+        f6.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f6);
+        f6.setWarbandId(warband_14.getId());
+        mDatabase.copyToRealmOrUpdate(f6);
+        
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_15(){
+        mDatabase.beginTransaction();
+        
+        //Warband - Yltharis Guardians
+        Warband warband_15 = new Warband();
+        warband_15.setName(mContext.getResources().getString(R.string.yltharis_guardians_warband_name));
+        warband_15.setDescription(mContext.getResources().getString(R.string.yltharis_guardians_warband_description));
+        warband_15.setIconPath(mContext.getResources().getString(R.string.yltharis_guardians_warband_icon_path));
+        mDatabase.insert(warband_15);
+        
+        //Fighter - Ylthari
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Ильтари");
+        f1.setIconPath("ic_warband_yltharis_guardians_1");
+        f1.setCardPath("card_yltharis_guardians_1");
+        f1.setInspiredStateCardPath("card_yltharis_guardians_1_inspired");
+        f1.setInspirationStateDescription("Гамбит, улучшение, действие или реакция снимают один или более " +
+                "жетонов Ранений с этого бойца (даже если на нем не было таких жетонов).");
+        f1.setHealth(3);
+        
+        f1.setDefenceStyle("evasion");
+        
+        f1.setMovementDistance(4);
+        f1.setDefenceValue(2);
+        
+        f1.setInspiredName("Вдохновленная Ильтари");
+        f1.setInspiredMovementDistance(5);
+        f1.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_15.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+    
+        //Fighter - Skhathael
+        Fighter f2 = new Fighter();
+        f2.setName("Схатаэль");
+        f2.setIconPath("ic_warband_yltharis_guardians_2");
+        f2.setCardPath("card_yltharis_guardians_2");
+        f2.setInspiredStateCardPath("card_yltharis_guardians_2_inspired");
+        f2.setInspirationStateDescription("Гамбит, улучшение, действие или реакция снимают один или более " +
+                "жетонов Ранений с этого бойца (даже если на нем не было таких жетонов).");
+        f2.setHealth(3);
+        
+        f2.setDefenceStyle("block");
+        
+        f2.setMovementDistance(4);
+        f2.setDefenceValue(1);
+        
+        f2.setInspiredName("Вдохновленный Схатаэль");
+        f2.setInspiredMovementDistance(4);
+        f2.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_15.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+    
+        //Fighter - Gallanghann of the Glade
+        Fighter f3 = new Fighter();
+        f3.setName("Галанган из Дубравы");
+        f3.setIconPath("ic_warband_yltharis_guardians_3");
+        f3.setCardPath("card_yltharis_guardians_3");
+        f3.setInspiredStateCardPath("card_yltharis_guardians_3_inspired");
+        f3.setInspirationStateDescription("Гамбит, улучшение, действие или реакция снимают один или более " +
+                "жетонов Ранений с этого бойца (даже если на нем не было таких жетонов).");
+        f3.setHealth(4);
+        
+        f3.setDefenceStyle("block");
+        
+        f3.setMovementDistance(4);
+        f3.setDefenceValue(2);
+        
+        f3.setInspiredName("Вдохновленный Галанган");
+        f3.setInspiredMovementDistance(4);
+        f3.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_15.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+    
+        //Fighter - Ahnslaine Revenant Archer
+        Fighter f4 = new Fighter();
+        f4.setName("Эйнслейн, Призрачная Лучница");
+        f4.setIconPath("ic_warband_yltharis_guardians_4");
+        f4.setCardPath("card_yltharis_guardians_4");
+        f4.setInspiredStateCardPath("card_yltharis_guardians_4_inspired");
+        f4.setInspirationStateDescription("Гамбит, улучшение, действие или реакция снимают один или более " +
+                "жетонов Ранений с этого бойца (даже если на нем не было таких жетонов).");
+        f4.setHealth(3);
+        
+        f4.setDefenceStyle("evasion");
+        
+        f4.setMovementDistance(4);
+        f4.setDefenceValue(1);
+        
+        f4.setInspiredName("Вдохновленная Эйнслейн");
+        f4.setInspiredMovementDistance(4);
+        f4.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_15.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+    
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_16(){
+        mDatabase.beginTransaction();
+    
+        //Warband - Thundriks Profiteers
+        Warband warband_16 = new Warband();
+        warband_16.setName(mContext.getResources().getString(R.string.thundriks_profiteers_warband_name));
+        warband_16.setDescription(mContext.getResources().getString(R.string.thundriks_profiteers_warband_description));
+        warband_16.setIconPath(mContext.getResources().getString(R.string.thundriks_profiteers_warband_icon_path));
+        mDatabase.insert(warband_16);
+        
+        //Fighter - Bjorgen Thundrik
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Бьорген Тандрик");
+        f1.setIconPath("ic_warband_thundriks_profiteers_1");
+        f1.setCardPath("card_thundriks_profiteers_1");
+        f1.setInspiredStateCardPath("card_thundriks_profiteers_1_inspired");
+        f1.setInspirationStateDescription("none");
+        f1.setHealth(4);
+        
+        f1.setDefenceStyle("block");
+        
+        f1.setMovementDistance(2);
+        f1.setDefenceValue(1);
+        
+        f1.setInspiredName("Вдохновленный Тандрик");
+        f1.setInspiredHealth(5);
+        f1.setInspiredMovementDistance(3);
+        f1.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_16.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+    
+        //Fighter - Khazgan Drakkskewer
+        Fighter f2 = new Fighter();
+        f2.setName("Хазган Драккскевер");
+        f2.setIconPath("ic_warband_thundriks_profiteers_2");
+        f2.setCardPath("card_thundriks_profiteers_2");
+        f2.setInspiredStateCardPath("card_thundriks_profiteers_2_inspired");
+        f2.setInspirationStateDescription("none");
+        f2.setHealth(3);
+        
+        f2.setDefenceStyle("block");
+        
+        f2.setMovementDistance(4);
+        f2.setDefenceValue(1);
+        
+        f2.setInspiredName("Вдохновленный Драккскевер");
+        f2.setInspiredHealth(4);
+        f2.setInspiredMovementDistance(4);
+        f2.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_16.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+    
+        //Fighter - Dead-Eye Lund
+        Fighter f3 = new Fighter();
+        f3.setName("Лунд Верный Глаз");
+        f3.setIconPath("ic_warband_thundriks_profiteers_3");
+        f3.setCardPath("card_thundriks_profiteers_3");
+        f3.setInspiredStateCardPath("card_thundriks_profiteers_3_inspired");
+        f3.setInspirationStateDescription("none");
+        f3.setHealth(3);
+        
+        f3.setDefenceStyle("block");
+        
+        f3.setMovementDistance(2);
+        f3.setDefenceValue(1);
+        
+        f3.setInspiredName("Вдохновленный Лунд");
+        f3.setInspiredHealth(4);
+        f3.setInspiredMovementDistance(3);
+        f3.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_16.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+    
+        //Fighter - Endrik Ironhail
+        Fighter f4 = new Fighter();
+        f4.setName("Энрик Железный Град");
+        f4.setIconPath("ic_warband_thundriks_profiteers_4");
+        f4.setCardPath("card_thundriks_profiteers_4");
+        f4.setInspiredStateCardPath("card_thundriks_profiteers_4_inspired");
+        f4.setInspirationStateDescription("none");
+        f4.setHealth(2);
+        
+        f4.setDefenceStyle("evasion");
+        
+        f4.setMovementDistance(2);
+        f4.setDefenceValue(1);
+        
+        f4.setInspiredName("Вдохновленный Энрик");
+        f4.setInspiredHealth(3);
+        f4.setInspiredMovementDistance(3);
+        f4.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_16.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+    
+        //Fighter - Garodd Alensen
+        Fighter f5 = new Fighter();
+        f5.setName("Гародд Аленсен");
+        f5.setIconPath("ic_warband_thundriks_profiteers_5");
+        f5.setCardPath("card_thundriks_profiteers_5");
+        f5.setInspiredStateCardPath("card_thundriks_profiteers_5_inspired");
+        f5.setInspirationStateDescription("none");
+        f5.setHealth(2);
+        
+        f5.setDefenceStyle("evasion");
+        
+        f5.setMovementDistance(2);
+        f5.setDefenceValue(1);
+        
+        f5.setInspiredName("Вдохновленный Аленсен");
+        f5.setInspiredHealth(3);
+        f5.setInspiredDefenceStyle("block");
+        f5.setInspiredMovementDistance(3);
+        f5.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f5);
+        f5.setWarbandId(warband_16.getId());
+        mDatabase.copyToRealmOrUpdate(f5);
+    
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_17(){
+        mDatabase.beginTransaction();
+    
+        //Warband - Grashraks Despoilers
+        Warband warband_17 = new Warband();
+        warband_17.setName(mContext.getResources().getString(R.string.grashraks_despoilers_warband_name));
+        warband_17.setDescription(mContext.getResources().getString(R.string.grashraks_despoilers_warband_description));
+        warband_17.setIconPath(mContext.getResources().getString(R.string.grashraks_despoilers_warband_icon_path));
+        mDatabase.insert(warband_17);
+        
+        //Fighter - Grashrak Fellhoof
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Грашрак Проклятое Копыто");
+        f1.setIconPath("ic_warband_grashraks_despoilers_1");
+        f1.setCardPath("card_grashraks_despoilers_1");
+        f1.setInspiredStateCardPath("card_grashraks_despoilers_1_inspired");
+        f1.setInspirationStateDescription("Два вражеских бойца или более выводятся из игры");
+        f1.setHealth(4);
+        
+        f1.setDefenceStyle("evasion");
+        
+        f1.setMovementDistance(4);
+        f1.setDefenceValue(1);
+        
+        f1.setInspiredName("Вдохновленный Проклятое Копыто");
+        f1.setInspiredMovementDistance(4);
+        f1.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_17.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+    
+        //Fighter - Korsh 'the sneak'
+        Fighter f2 = new Fighter();
+        f2.setName("Корш «Плут»");
+        f2.setIconPath("ic_warband_grashraks_despoilers_2");
+        f2.setCardPath("card_grashraks_despoilers_2");
+        f2.setInspiredStateCardPath("card_grashraks_despoilers_2_inspired");
+        f2.setInspirationStateDescription("Два вражеских бойца или более выводятся из игры");
+        f2.setHealth(2);
+        
+        f2.setDefenceStyle("evasion");
+        
+        f2.setMovementDistance(4);
+        f2.setDefenceValue(1);
+    
+        f2.setInspiredName("Вдохновленный Корш");
+        f2.setInspiredMovementDistance(4);
+        f2.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_17.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+    
+        //Fighter - Murghoth Half-horn
+        Fighter f3 = new Fighter();
+        f3.setName("Мургот Полурогий");
+        f3.setIconPath("ic_warband_grashraks_despoilers_3");
+        f3.setCardPath("card_grashraks_despoilers_3");
+        f3.setInspiredStateCardPath("card_grashraks_despoilers_3_inspired");
+        f3.setInspirationStateDescription("Два вражеских бойца или более выводятся из игры");
+        f3.setHealth(3);
+        
+        f3.setDefenceStyle("evasion");
+        
+        f3.setMovementDistance(4);
+        f3.setDefenceValue(1);
+    
+        f3.setInspiredName("Вдохновленный Мургот");
+        f3.setInspiredMovementDistance(4);
+        f3.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_17.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+    
+        //Fighter - Ushkor
+        Fighter f4 = new Fighter();
+        f4.setName("Ушкор");
+        f4.setIconPath("ic_warband_grashraks_despoilers_4");
+        f4.setCardPath("card_grashraks_despoilers_4");
+        f4.setInspiredStateCardPath("card_grashraks_despoilers_4_inspired");
+        f4.setInspirationStateDescription("Два вражеских бойца или более выводятся из игры");
+        f4.setHealth(2);
+        
+        f4.setDefenceStyle("evasion");
+        
+        f4.setMovementDistance(4);
+        f4.setDefenceValue(1);
+    
+        f4.setInspiredName("Вдохновленный Ушкор");
+        f4.setInspiredMovementDistance(4);
+        f4.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_17.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+    
+        //Fighter - Draknar
+        Fighter f5 = new Fighter();
+        f5.setName("Дракнар");
+        f5.setIconPath("ic_warband_grashraks_despoilers_5");
+        f5.setCardPath("card_grashraks_despoilers_5");
+        f5.setInspiredStateCardPath("card_grashraks_despoilers_5_inspired");
+        f5.setInspirationStateDescription("Два вражеских бойца или более выводятся из игры");
+        f5.setHealth(3);
+        
+        f5.setDefenceStyle("block");
+        
+        f5.setMovementDistance(4);
+        f5.setDefenceValue(1);
+    
+        f5.setInspiredName("Вдохновленный Дракнар");
+        f5.setInspiredMovementDistance(4);
+        f5.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f5);
+        f5.setWarbandId(warband_17.getId());
+        mDatabase.copyToRealmOrUpdate(f5);
+    
+        //Fighter - Gnarl
+        Fighter f6 = new Fighter();
+        f6.setName("Гнарл");
+        f6.setIconPath("ic_warband_grashraks_despoilers_6");
+        f6.setCardPath("card_grashraks_despoilers_6");
+        f6.setInspiredStateCardPath("card_grashraks_despoilers_6_inspired");
+        f6.setInspirationStateDescription("Два вражеских бойца или более выводятся из игры");
+        f6.setHealth(2);
+        
+        f6.setDefenceStyle("evasion");
+        
+        f6.setMovementDistance(4);
+        f6.setDefenceValue(1);
+    
+        f6.setInspiredName("Вдохновленный Гнарл");
+        f6.setInspiredMovementDistance(4);
+        f6.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f6);
+        f6.setWarbandId(warband_17.getId());
+        mDatabase.copyToRealmOrUpdate(f6);
+    
+        mDatabase.commitTransaction();
+    }
+    
+    private void AddWarband_18(){
+        mDatabase.beginTransaction();
+    
+        //Warband - Skaeths Wild Hunt
+        Warband warband_18 = new Warband();
+        warband_18.setName(mContext.getResources().getString(R.string.skaeths_wild_hunt_warband_name));
+        warband_18.setDescription(mContext.getResources().getString(R.string.skaeths_wild_hunt_warband_description));
+        warband_18.setIconPath(mContext.getResources().getString(R.string.skaeths_wild_hunt_warband_icon_path));
+        mDatabase.insert(warband_18);
+        
+        //Fighter - Skaeth The Huntsman
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Скит Охотник");
+        f1.setIconPath("ic_warband_skaeths_wild_hunt_1");
+        f1.setCardPath("card_skaeths_wild_hunt_1");
+        f1.setInspiredStateCardPath("card_skaeths_wild_hunt_1_inspired");
+        f1.setInspirationStateDescription("У этого бойца в конце фазы есть жетон нападения");
+        f1.setHealth(4);
+        
+        f1.setDefenceStyle("block");
+        
+        f1.setMovementDistance(5);
+        f1.setDefenceValue(1);
+    
+        f1.setInspiredName("Вдохновленный Скит");
+        f1.setInspiredMovementDistance(5);
+        f1.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_18.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+    
+        //Fighter - Althaen, Kurnothi Tracker
+        Fighter f2 = new Fighter();
+        f2.setName("Алтаэн, Следопыт Курнотхи");
+        f2.setIconPath("ic_warband_skaeths_wild_hunt_2");
+        f2.setCardPath("card_skaeths_wild_hunt_2");
+        f2.setInspiredStateCardPath("card_skaeths_wild_hunt_2_inspired");
+        f2.setInspirationStateDescription("У этого бойца в конце фазы есть жетон нападения");
+        f2.setHealth(3);
+        
+        f2.setDefenceStyle("evasion");
+        
+        f2.setMovementDistance(4);
+        f2.setDefenceValue(1);
+    
+        f2.setInspiredName("Вдохновленная Алтаэн");
+        f2.setInspiredMovementDistance(5);
+        f2.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_18.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+    
+        //Fighter - Karthaen, Huntcaller
+        Fighter f3 = new Fighter();
+        f3.setName("Картаэн, Глашатай Охоты");
+        f3.setIconPath("ic_warband_skaeths_wild_hunt_3");
+        f3.setCardPath("card_skaeths_wild_hunt_3");
+        f3.setInspiredStateCardPath("card_skaeths_wild_hunt_3_inspired");
+        f3.setInspirationStateDescription("У этого бойца в конце фазы есть жетон нападения");
+        f3.setHealth(3);
+        
+        f3.setDefenceStyle("evasion");
+        
+        f3.setMovementDistance(4);
+        f3.setDefenceValue(2);
+    
+        f3.setInspiredName("Вдохновленный Картаэн");
+        f3.setInspiredMovementDistance(5);
+        f3.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_18.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+    
+        //Fighter - Lighaen, Malkyn
+        Fighter f4 = new Fighter();
+        f4.setName("Лайиэн, Малкин");
+        f4.setIconPath("ic_warband_skaeths_wild_hunt_4");
+        f4.setCardPath("card_skaeths_wild_hunt_4");
+        f4.setInspiredStateCardPath("card_skaeths_wild_hunt_4_inspired");
+        f4.setInspirationStateDescription("У этого бойца в конце фазы есть жетон нападения");
+        f4.setHealth(2);
+        
+        f4.setDefenceStyle("evasion");
+        
+        f4.setMovementDistance(5);
+        f4.setDefenceValue(1);
+    
+        f4.setInspiredName("Вдохновленный Лайиэн");
+        f4.setInspiredMovementDistance(5);
+        f4.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_18.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+    
+        //Fighter - Sheoch, Kurnothi Tracker
+        Fighter f5 = new Fighter();
+        f5.setName("Шеоч, Следопыт Курнотхи");
+        f5.setIconPath("ic_warband_skaeths_wild_hunt_5");
+        f5.setCardPath("card_skaeths_wild_hunt_5");
+        f5.setInspiredStateCardPath("card_skaeths_wild_hunt_5_inspired");
+        f5.setInspirationStateDescription("У этого бойца в конце фазы есть жетон нападения");
+        f5.setHealth(3);
+        
+        f5.setDefenceStyle("evasion");
+        
+        f5.setMovementDistance(4);
+        f5.setDefenceValue(1);
+    
+        f5.setInspiredName("Вдохновленный Шеоч");
+        f5.setInspiredMovementDistance(5);
+        f5.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f5);
+        f5.setWarbandId(warband_18.getId());
+        mDatabase.copyToRealmOrUpdate(f5);
+    
+        mDatabase.commitTransaction();
+    }
+
+    private void AddWarband_19(){
+        mDatabase.beginTransaction();
+
+        //Warband - The Grymwatch
+        Warband warband_19 = new Warband();
+        warband_19.setName(mContext.getResources().getString(R.string.the_grymwatch_warband_name));
+        warband_19.setDescription(mContext.getResources().getString(R.string.the_grymwatch_warband_description));
+        warband_19.setIconPath(mContext.getResources().getString(R.string.the_grymwatch_warband_icon_path));
+        mDatabase.insert(warband_19);
+
+        //Fighter - Duke Crakmarrow
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Герцог Кракмозг");
+        f1.setIconPath("ic_warband_the_grymwatch_1");
+        f1.setCardPath("card_the_grymwatch_1");
+        f1.setInspiredStateCardPath("card_the_grymwatch_1_inspired");
+        f1.setInspirationStateDescription("Нет");
+        f1.setHealth(4);
+
+        f1.setDefenceStyle("evasion");
+
+        f1.setMovementDistance(4);
+        f1.setDefenceValue(1);
+
+        f1.setInspiredName("Вдохновленный Кракмозг");
+        f1.setInspiredMovementDistance(5);
+        f1.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_19.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+
+        //Fighter - Gristlewel, Greatsword
+        Fighter f2 = new Fighter();
+        f2.setName("Хрящелом Великий Меч");
+        f2.setIconPath("ic_warband_the_grymwatch_2");
+        f2.setCardPath("card_the_grymwatch_2");
+        f2.setInspiredStateCardPath("card_the_grymwatch_2_inspired");
+        f2.setInspirationStateDescription("Нет");
+        f2.setHealth(3);
+
+        f2.setDefenceStyle("evasion");
+
+        f2.setMovementDistance(4);
+        f2.setDefenceValue(1);
+
+        f2.setInspiredName("Вдохновленный Хрящелом");
+        f2.setInspiredMovementDistance(5);
+        f2.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_19.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+
+        //Fighter - Master Talon
+        Fighter f3 = new Fighter();
+        f3.setName("Мастер Коготь");
+        f3.setIconPath("ic_warband_the_grymwatch_3");
+        f3.setCardPath("card_the_grymwatch_3");
+        f3.setInspiredStateCardPath("card_the_grymwatch_3_inspired");
+        f3.setInspirationStateDescription("Нет");
+        f3.setHealth(2);
+
+        f3.setDefenceStyle("evasion");
+
+        f3.setMovementDistance(4);
+        f3.setDefenceValue(1);
+
+        f3.setInspiredName("Вдохновленный Коготь");
+        f3.setInspiredMovementDistance(5);
+        f3.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_19.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+
+        //Fighter - Night's Herald
+        Fighter f4 = new Fighter();
+        f4.setName("Герольд Ночи");
+        f4.setIconPath("ic_warband_the_grymwatch_4");
+        f4.setCardPath("card_the_grymwatch_4");
+        f4.setInspiredStateCardPath("card_the_grymwatch_4_inspired");
+        f4.setInspirationStateDescription("Нет");
+        f4.setHealth(2);
+
+        f4.setDefenceStyle("evasion");
+
+        f4.setMovementDistance(4);
+        f4.setDefenceValue(1);
+
+        f4.setInspiredName("Вдохновленный Герольд");
+        f4.setInspiredMovementDistance(5);
+        f4.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_19.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+
+        //Fighter - Night's Herald
+        Fighter f5 = new Fighter();
+        f5.setName("Королевский Мясник");
+        f5.setIconPath("ic_warband_the_grymwatch_5");
+        f5.setCardPath("card_the_grymwatch_5");
+        f5.setInspiredStateCardPath("card_the_grymwatch_5_inspired");
+        f5.setInspirationStateDescription("Нет");
+        f5.setHealth(2);
+
+        f5.setDefenceStyle("evasion");
+
+        f5.setMovementDistance(4);
+        f5.setDefenceValue(1);
+
+        f5.setInspiredName("Вдохновленный Мясник");
+        f5.setInspiredMovementDistance(5);
+        f5.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f5);
+        f5.setWarbandId(warband_19.getId());
+        mDatabase.copyToRealmOrUpdate(f5);
+
+        //Fighter - Valreek the Tracker
+        Fighter f6 = new Fighter();
+        f6.setName("Валрик Ищейка");
+        f6.setIconPath("ic_warband_the_grymwatch_6");
+        f6.setCardPath("card_the_grymwatch_6");
+        f6.setInspiredStateCardPath("card_the_grymwatch_6_inspired");
+        f6.setInspirationStateDescription("Нет");
+        f6.setHealth(3);
+
+        f6.setDefenceStyle("evasion");
+
+        f6.setMovementDistance(4);
+        f6.setDefenceValue(1);
+
+        f6.setInspiredName("Вдохновленная Валрик");
+        f6.setInspiredMovementDistance(5);
+        f6.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f6);
+        f6.setWarbandId(warband_19.getId());
+        mDatabase.copyToRealmOrUpdate(f6);
+
+        //Fighter - Duke's Harriers
+        Fighter f7 = new Fighter();
+        f7.setName("Гончие Герцога");
+        f7.setIconPath("ic_warband_the_grymwatch_7");
+        f7.setCardPath("card_the_grymwatch_7");
+        f7.setInspiredStateCardPath("card_the_grymwatch_7_inspired");
+        f7.setInspirationStateDescription("Нет");
+        f7.setHealth(3);
+
+        f7.setDefenceStyle("evasion");
+
+        f7.setMovementDistance(5);
+        f7.setDefenceValue(1);
+
+        f7.setInspiredName("Вдохновленные Гончие");
+        f7.setInspiredMovementDistance(6);
+        f7.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f7);
+        f7.setWarbandId(warband_19.getId());
+        mDatabase.copyToRealmOrUpdate(f7);
+
+        mDatabase.commitTransaction();
+    }
+
+    private void AddWarband_20(){
+        mDatabase.beginTransaction();
+
+        //Warband - Rippa's Snarlfangs
+        Warband warband_20 = new Warband();
+        warband_20.setName(mContext.getResources().getString(R.string.rippas_snarlfangs_warband_name));
+        warband_20.setDescription(mContext.getResources().getString(R.string.rippas_snarlfangs_warband_description));
+        warband_20.setIconPath(mContext.getResources().getString(R.string.rippas_snarlfangs_warband_icon_path));
+        mDatabase.insert(warband_20);
+
+        //Fighter - Rippa Narkbad
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Риппа Плохиш");
+        f1.setIconPath("ic_warband_rippas_snarlfangs_1");
+        f1.setCardPath("card_rippas_snarlfangs_1");
+        f1.setInspiredStateCardPath("card_rippas_snarlfangs_1_inspired");
+        f1.setInspirationStateDescription("Нет");
+        f1.setHealth(4);
+
+        f1.setDefenceStyle("block");
+
+        f1.setMovementDistance(4);
+        f1.setDefenceValue(1);
+
+        f1.setInspiredName("Вдохновленный Риппа");
+        f1.setInspiredMovementDistance(5);
+        f1.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_20.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+
+        //Fighter - Mean-Eye
+        Fighter f2 = new Fighter();
+        f2.setName("Подлоглаз");
+        f2.setIconPath("ic_warband_rippas_snarlfangs_2");
+        f2.setCardPath("card_rippas_snarlfangs_2");
+        f2.setInspiredStateCardPath("card_rippas_snarlfangs_2_inspired");
+        f2.setInspirationStateDescription("Нет");
+        f2.setHealth(4);
+
+        f2.setDefenceStyle("block");
+
+        f2.setMovementDistance(4);
+        f2.setDefenceValue(1);
+
+        f2.setInspiredName("Вдохновленный Подлоглаз");
+        f2.setInspiredMovementDistance(5);
+        f2.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_20.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+
+        //Fighter - Stabbit
+        Fighter f3 = new Fighter();
+        f3.setName("Пронзака");
+        f3.setIconPath("ic_warband_rippas_snarlfangs_3");
+        f3.setCardPath("card_rippas_snarlfangs_3");
+        f3.setInspiredStateCardPath("card_rippas_snarlfangs_3_inspired");
+        f3.setInspirationStateDescription("Нет");
+        f3.setHealth(4);
+
+        f3.setDefenceStyle("block");
+
+        f3.setMovementDistance(4);
+        f3.setDefenceValue(1);
+
+        f3.setInspiredName("Вдохновленный Пронзака");
+        f3.setInspiredMovementDistance(5);
+        f3.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_20.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+
+        mDatabase.commitTransaction();
+    }
+
+    private void AddWarband_21(){
+        mDatabase.beginTransaction();
+
+        //Warband - Lady Harrows Mournflight
+        Warband warband_21 = new Warband();
+        warband_21.setName(mContext.getResources().getString(R.string.lady_harrows_mournflight_warband_name));
+        warband_21.setDescription(mContext.getResources().getString(R.string.lady_harrows_mournflight_warband_description));
+        warband_21.setIconPath(mContext.getResources().getString(R.string.lady_harrows_mournflight_warband_icon_path));
+        mDatabase.insert(warband_21);
+
+        //Fighter - Lady Harrow
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Леди Харроу");
+        f1.setIconPath("ic_warband_lady_harrows_mournflight_1");
+        f1.setCardPath("card_lady_harrows_mournflight_1");
+        f1.setInspiredStateCardPath("card_lady_harrows_mournflight_1_inspired");
+        f1.setInspirationStateDescription("Нет");
+        f1.setHealth(4);
+
+        f1.setDefenceStyle("evasion");
+
+        f1.setMovementDistance(4);
+        f1.setDefenceValue(2);
+
+        f1.setInspiredName("Вдохновленная Леди Харроу");
+        f1.setInspiredMovementDistance(5);
+        f1.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_21.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+
+        //Fighter - The Anguished One
+        Fighter f2 = new Fighter();
+        f2.setName("Страждущая");
+        f2.setIconPath("ic_warband_lady_harrows_mournflight_2");
+        f2.setCardPath("card_lady_harrows_mournflight_2");
+        f2.setInspiredStateCardPath("card_lady_harrows_mournflight_2_inspired");
+        f2.setInspirationStateDescription("Нет");
+        f2.setHealth(3);
+
+        f2.setDefenceStyle("evasion");
+
+        f2.setMovementDistance(4);
+        f2.setDefenceValue(2);
+
+        f2.setInspiredName("Вдохновленная Страждущая");
+        f2.setInspiredHealth(4);
+        f2.setInspiredMovementDistance(5);
+        f2.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_21.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+
+        //Fighter - The Screaming Maiden
+        Fighter f3 = new Fighter();
+        f3.setName("Кричащая Дева");
+        f3.setIconPath("ic_warband_lady_harrows_mournflight_3");
+        f3.setCardPath("card_lady_harrows_mournflight_3");
+        f3.setInspiredStateCardPath("card_lady_harrows_mournflight_3_inspired");
+        f3.setInspirationStateDescription("Нет");
+        f3.setHealth(3);
+
+        f3.setDefenceStyle("evasion");
+
+        f3.setMovementDistance(4);
+        f3.setDefenceValue(2);
+
+        f3.setInspiredName("Вдохновленная Дева");
+        f3.setInspiredMovementDistance(5);
+        f3.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_21.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+
+        //Fighter - Widow Caitha
+        Fighter f4 = new Fighter();
+        f4.setName("Вдова Кайта");
+        f4.setIconPath("ic_warband_lady_harrows_mournflight_4");
+        f4.setCardPath("card_lady_harrows_mournflight_4");
+        f4.setInspiredStateCardPath("card_lady_harrows_mournflight_4_inspired");
+        f4.setInspirationStateDescription("Нет");
+        f4.setHealth(2);
+
+        f4.setDefenceStyle("evasion");
+
+        f4.setMovementDistance(4);
+        f4.setDefenceValue(2);
+
+        f4.setInspiredName("Вдохновленная Вдова Кайта");
+        f4.setInspiredHealth(3);
+        f4.setInspiredMovementDistance(5);
+        f4.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_21.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+
+        mDatabase.commitTransaction();
+    }
+
+    private void AddWarband_22(){
+        mDatabase.beginTransaction();
+
+        //Warband - Ironsoul's Condemnors
+        Warband warband_22 = new Warband();
+        warband_22.setName(mContext.getResources().getString(R.string.ironsouls_condemnors_warband_name));
+        warband_22.setDescription(mContext.getResources().getString(R.string.ironsouls_condemnors_warband_description));
+        warband_22.setIconPath(mContext.getResources().getString(R.string.ironsouls_condemnors_warband_icon_path));
+        mDatabase.insert(warband_22);
+
+        //Fighter - Gwynne Ironsoul
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Гвинн Железная Душа");
+        f1.setIconPath("ic_warband_ironsouls_condemnors_1");
+        f1.setCardPath("card_ironsouls_condemnors_1");
+        f1.setInspiredStateCardPath("card_ironsouls_condemnors_1_inspired");
+        f1.setInspirationStateDescription("Нет");
+        f1.setHealth(4);
+
+        f1.setDefenceStyle("block");
+
+        f1.setMovementDistance(3);
+        f1.setDefenceValue(1);
+
+        f1.setInspiredName("Вдохновленная Железная Душа");
+        f1.setInspiredMovementDistance(3);
+        f1.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_22.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+
+        //Fighter - Brodus Blightbane
+        Fighter f2 = new Fighter();
+        f2.setName("Бродус Блайтбэйн");
+        f2.setIconPath("ic_warband_ironsouls_condemnors_2");
+        f2.setCardPath("card_ironsouls_condemnors_2");
+        f2.setInspiredStateCardPath("card_ironsouls_condemnors_2_inspired");
+        f2.setInspirationStateDescription("Нет");
+        f2.setHealth(4);
+
+        f2.setDefenceStyle("block");
+
+        f2.setMovementDistance(3);
+        f2.setDefenceValue(1);
+
+        f2.setInspiredName("Вдохновленный Блайтбэйн");
+        f2.setInspiredMovementDistance(4);
+        f2.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_22.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+
+        //Fighter - Tavian of Sarnassus
+        Fighter f3 = new Fighter();
+        f3.setName("Тавиан из Сарнасуса");
+        f3.setIconPath("ic_warband_ironsouls_condemnors_3");
+        f3.setCardPath("card_ironsouls_condemnors_3");
+        f3.setInspiredStateCardPath("card_ironsouls_condemnors_3_inspired");
+        f3.setInspirationStateDescription("Нет");
+        f3.setHealth(4);
+
+        f3.setDefenceStyle("block");
+
+        f3.setMovementDistance(3);
+        f3.setDefenceValue(1);
+
+        f3.setInspiredName("Вдохновленный Тавиан");
+        f3.setInspiredMovementDistance(3);
+        f3.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_22.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+
+        mDatabase.commitTransaction();
+    }
+
+    private void AddWarband_23(){
+        mDatabase.beginTransaction();
+
+        //Warband - The Wurmspat
+        Warband warband_23 = new Warband();
+        warband_23.setName(mContext.getResources().getString(R.string.the_wurmspat_warband_name));
+        warband_23.setDescription(mContext.getResources().getString(R.string.the_wurmspat_warband_description));
+        warband_23.setIconPath(mContext.getResources().getString(R.string.the_wurmspat_warband_icon_path));
+        mDatabase.insert(warband_23);
+
+        //Fighter - Fecula Flyblown
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Фекула Замаранная");
+        f1.setIconPath("ic_warband_the_wurmspat_1");
+        f1.setCardPath("card_the_wurmspat_1");
+        f1.setInspiredStateCardPath("card_the_wurmspat_1_inspired");
+        f1.setInspirationStateDescription("Нет");
+        f1.setHealth(4);
+
+        f1.setDefenceStyle("block");
+
+        f1.setMovementDistance(3);
+        f1.setDefenceValue(1);
+
+        f1.setInspiredName("Вдохновленная Фекула");
+        f1.setInspiredMovementDistance(3);
+        f1.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_23.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+
+        //Fighter - Ghulgoch the Butcher
+        Fighter f2 = new Fighter();
+        f2.setName("Гхалгоч Мясник");
+        f2.setIconPath("ic_warband_the_wurmspat_2");
+        f2.setCardPath("card_the_wurmspat_2");
+        f2.setInspiredStateCardPath("card_the_wurmspat_2_inspired");
+        f2.setInspirationStateDescription("Нет");
+        f2.setHealth(4);
+
+        f2.setDefenceStyle("block");
+
+        f2.setMovementDistance(3);
+        f2.setDefenceValue(1);
+
+        f2.setInspiredName("Вдохновленный Гхалгоч");
+        f2.setInspiredMovementDistance(3);
+        f2.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_23.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+
+        //Fighter - Sepsimus, Plaguesworn
+        Fighter f3 = new Fighter();
+        f3.setName("Сепсимус, Чумоносец");
+        f3.setIconPath("ic_warband_the_wurmspat_3");
+        f3.setCardPath("card_the_wurmspat_3");
+        f3.setInspiredStateCardPath("card_the_wurmspat_3_inspired");
+        f3.setInspirationStateDescription("Нет");
+        f3.setHealth(4);
+
+        f3.setDefenceStyle("block");
+
+        f3.setMovementDistance(3);
+        f3.setDefenceValue(1);
+
+        f3.setInspiredName("Вдохновленный Сепсимус");
+        f3.setInspiredMovementDistance(3);
+        f3.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_23.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+
+        mDatabase.commitTransaction();
+    }
+
+    private void AddWarband_24(){
+            mDatabase.beginTransaction();
+
+            //Warband - Hrothgorns Mantrappers
+            Warband warband_24 = new Warband();
+            warband_24.setName(mContext.getResources().getString(R.string.hrothgorns_mantrappers_warband_name));
+            warband_24.setDescription(mContext.getResources().getString(R.string.hrothgorns_mantrappers_warband_description));
+            warband_24.setIconPath(mContext.getResources().getString(R.string.hrothgorns_mantrappers_warband_icon_path));
+            mDatabase.insert(warband_24);
+
+            //Fighter - Hrothgorn Mantrapper
+            Fighter f1 = new Fighter();
+            f1.setLeadership(true);
+            f1.setName("Хротгорн Охотник");
+            f1.setIconPath("ic_warband_hrothgorns_mantrappers_1");
+            f1.setCardPath("card_hrothgorns_mantrappers_1");
+            f1.setInspiredStateCardPath("card_hrothgorns_mantrappers_1_inspired");
+            f1.setInspirationStateDescription("Нет");
+            f1.setHealth(6);
+
+            f1.setDefenceStyle("block");
+
+            f1.setMovementDistance(4);
+            f1.setDefenceValue(1);
+
+            f1.setInspiredName("Вдохновленный Хротгорн");
+            f1.setInspiredMovementDistance(4);
+            f1.setInspiredDefenceValue(2);
+
+            mDatabase.insert(f1);
+            f1.setWarbandId(warband_24.getId());
+            mDatabase.copyToRealmOrUpdate(f1);
+
+            //Fighter - Thrafnir
+            Fighter f2 = new Fighter();
+            f2.setName("Трафнир");
+            f2.setIconPath("ic_warband_hrothgorns_mantrappers_2");
+            f2.setCardPath("card_hrothgorns_mantrappers_2");
+            f2.setInspiredStateCardPath("card_hrothgorns_mantrappers_2_inspired");
+            f2.setInspirationStateDescription("Нет");
+            f2.setHealth(3);
+
+            f2.setDefenceStyle("evasion");
+
+            f2.setMovementDistance(5);
+            f2.setDefenceValue(2);
+
+            f2.setInspiredName("Вдохновленный Трафнир");
+            f2.setInspiredMovementDistance(5);
+            f2.setInspiredDefenceValue(2);
+
+            mDatabase.insert(f2);
+            f2.setWarbandId(warband_24.getId());
+            mDatabase.copyToRealmOrUpdate(f2);
+
+            //Fighter - Luggit and Thwak
+            Fighter f3 = new Fighter();
+            f3.setName("Лаггит и Твак");
+            f3.setIconPath("ic_warband_hrothgorns_mantrappers_3");
+            f3.setCardPath("card_hrothgorns_mantrappers_3");
+            f3.setInspiredStateCardPath("card_hrothgorns_mantrappers_3_inspired");
+            f3.setInspirationStateDescription("Нет");
+            f3.setHealth(3);
+
+            f3.setDefenceStyle("evasion");
+
+            f3.setMovementDistance(3);
+            f3.setDefenceValue(1);
+
+            f3.setInspiredName("Вдохновленные Лаггит и Твак");
+            f3.setInspiredMovementDistance(4);
+            f3.setInspiredDefenceValue(1);
+
+            mDatabase.insert(f3);
+            f3.setWarbandId(warband_24.getId());
+            mDatabase.copyToRealmOrUpdate(f3);
+
+            //Fighter - Quiv
+            Fighter f4 = new Fighter();
+            f4.setName("Куив");
+            f4.setIconPath("ic_warband_hrothgorns_mantrappers_4");
+            f4.setCardPath("card_hrothgorns_mantrappers_4");
+            f4.setInspiredStateCardPath("card_hrothgorns_mantrappers_4_inspired");
+            f4.setInspirationStateDescription("Нет");
+            f4.setHealth(2);
+
+            f4.setDefenceStyle("evasion");
+
+            f4.setMovementDistance(3);
+            f4.setDefenceValue(1);
+
+            f4.setInspiredName("Вдохновленный Куив");
+            f4.setInspiredMovementDistance(4);
+            f4.setInspiredDefenceValue(2);
+
+            mDatabase.insert(f4);
+            f4.setWarbandId(warband_24.getId());
+            mDatabase.copyToRealmOrUpdate(f4);
+
+            //Fighter - Bushwakka
+            Fighter f5 = new Fighter();
+            f5.setName("Бушвакка");
+            f5.setIconPath("ic_warband_hrothgorns_mantrappers_5");
+            f5.setCardPath("card_hrothgorns_mantrappers_5");
+            f5.setInspiredStateCardPath("card_hrothgorns_mantrappers_5_inspired");
+            f5.setInspirationStateDescription("Нет");
+            f5.setHealth(2);
+
+            f5.setDefenceStyle("evasion");
+
+            f5.setMovementDistance(3);
+            f5.setDefenceValue(1);
+
+            f5.setInspiredName("Вдохновленный Бушвакка");
+            f5.setInspiredMovementDistance(4);
+            f5.setInspiredDefenceValue(2);
+
+            mDatabase.insert(f5);
+            f5.setWarbandId(warband_24.getId());
+            mDatabase.copyToRealmOrUpdate(f5);
+
+            mDatabase.commitTransaction();
+    }
+
+    private void AddWarband_25(){
+        mDatabase.beginTransaction();
+
+        //Warband - Morgok's Krushas
+        Warband warband_25 = new Warband();
+        warband_25.setName("Мордовороты Могрока");
+        warband_25.setDescription("Нет");
+        warband_25.setIconPath("ic_warband_morgok");
+        mDatabase.insert(warband_25);
+
+        //Fighter - Morgok
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Моргок");
+        f1.setIconPath("ic_warband_mogrok_1");
+        f1.setCardPath("card_mogrok_1");
+        f1.setInspiredStateCardPath("card_mogrok_1_inspired");
+        f1.setInspirationStateDescription("Нет");
+        f1.setHealth(5);
+
+        f1.setDefenceStyle("block");
+
+        f1.setMovementDistance(3);
+        f1.setDefenceValue(1);
+
+        f1.setInspiredName("Вдохновленный Моргок");
+        f1.setInspiredMovementDistance(4);
+        f1.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_25.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+
+        //Fighter - 'Ardskull
+        Fighter f2 = new Fighter();
+        f2.setName("Твёрдочереп");
+        f2.setIconPath("ic_warband_mogrok_2");
+        f2.setCardPath("card_mogrok_2");
+        f2.setInspiredStateCardPath("card_mogrok_2_inspired");
+        f2.setInspirationStateDescription("Нет");
+        f2.setHealth(5);
+
+        f2.setDefenceStyle("block");
+
+        f2.setMovementDistance(3);
+        f2.setDefenceValue(1);
+
+        f2.setInspiredName("Вдохновленный Твёрдочереп");
+        f2.setInspiredMovementDistance(4);
+        f2.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_25.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+
+        //Fighter - Tavian of Sarnassus
+        Fighter f3 = new Fighter();
+        f3.setName("Зугг");
+        f3.setIconPath("ic_warband_mogrok_3");
+        f3.setCardPath("card_mogrok_3");
+        f3.setInspiredStateCardPath("card_mogrok_3_inspired");
+        f3.setInspirationStateDescription("Нет");
+        f3.setHealth(5);
+
+        f3.setDefenceStyle("block");
+
+        f3.setMovementDistance(3);
+        f3.setDefenceValue(1);
+
+        f3.setInspiredName("Вдохновленный Зугг");
+        f3.setInspiredMovementDistance(4);
+        f3.setInspiredDefenceValue(1);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_25.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+
+        mDatabase.commitTransaction();
+    }
+
+    private void AddWarband_26(){
+        mDatabase.beginTransaction();
+
+        //Warband - Ковен
+        Warband warband_26 = new Warband();
+        warband_26.setName("Клан Клинков Моргвейт");
+        warband_26.setDescription("Нет");
+        warband_26.setIconPath("ic_warband_coven");
+        mDatabase.insert(warband_26);
+
+        //Fighter - Моргвейн
+        Fighter f1 = new Fighter();
+        f1.setLeadership(true);
+        f1.setName("Моргвейт Окровавленная");
+        f1.setIconPath("ic_warband_coven_1");
+        f1.setCardPath("card_coven_1");
+        f1.setInspiredStateCardPath("card_coven_1_inspired");
+        f1.setInspirationStateDescription("none");
+        f1.setHealth(4);
+
+        f1.setDefenceStyle("evasion");
+
+        f1.setMovementDistance(4);
+        f1.setDefenceValue(2);
+
+        f1.setInspiredName("Вдохновленная Моргвейт");
+        f1.setInspiredMovementDistance(5);
+        f1.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f1);
+        f1.setWarbandId(warband_26.getId());
+        mDatabase.copyToRealmOrUpdate(f1);
+
+        //Fighter - Кирия
+        Fighter f2 = new Fighter();
+        f2.setName("Кирия");
+        f2.setIconPath("ic_warband_coven_2");
+        f2.setCardPath("card_coven_2");
+        f2.setInspiredStateCardPath("card_coven_2_inspired");
+        f2.setInspirationStateDescription("none");
+        f2.setHealth(3);
+
+        f2.setDefenceStyle("evasion");
+
+        f2.setMovementDistance(5);
+        f2.setDefenceValue(2);
+
+        f2.setInspiredName("Вдохновленная Кирия");
+        f2.setInspiredMovementDistance(5);
+        f2.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f2);
+        f2.setWarbandId(warband_26.getId());
+        mDatabase.copyToRealmOrUpdate(f2);
+
+        //Fighter - Летир
+        Fighter f3 = new Fighter();
+        f3.setName("Летир");
+        f3.setIconPath("ic_warband_coven_3");
+        f3.setCardPath("card_coven_3");
+        f3.setInspiredStateCardPath("card_coven_3_inspired");
+        f3.setInspirationStateDescription("none");
+        f3.setHealth(2);
+
+        f3.setDefenceStyle("evasion");
+
+        f3.setMovementDistance(4);
+        f3.setDefenceValue(1);
+
+        f3.setInspiredName("Вдохновленная Летир");
+        f3.setInspiredMovementDistance(5);
+        f3.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f3);
+        f3.setWarbandId(warband_26.getId());
+        mDatabase.copyToRealmOrUpdate(f3);
+
+        //Fighter - Кирсса
+        Fighter f4 = new Fighter();
+        f4.setName("Кирсса");
+        f4.setIconPath("ic_warband_coven_4");
+        f4.setCardPath("card_coven_4");
+        f4.setInspiredStateCardPath("card_coven_4_inspired");
+        f4.setInspirationStateDescription("none");
+        f4.setHealth(2);
+
+        f4.setDefenceStyle("evasion");
+
+        f4.setMovementDistance(4);
+        f4.setDefenceValue(1);
+
+        f4.setInspiredName("Вдохновленная Кирсса");
+        f4.setInspiredMovementDistance(5);
+        f4.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f4);
+        f4.setWarbandId(warband_26.getId());
+        mDatabase.copyToRealmOrUpdate(f4);
+
+        //Fighter - Кхамисс
+        Fighter f5 = new Fighter();
+        f5.setName("Кхамисс");
+        f5.setIconPath("ic_warband_coven_5");
+        f5.setCardPath("card_coven_5");
+        f5.setInspiredStateCardPath("card_coven_5_inspired");
+        f5.setInspirationStateDescription("none");
+        f5.setHealth(2);
+
+        f5.setDefenceStyle("evasion");
+
+        f5.setMovementDistance(4);
+        f5.setDefenceValue(1);
+
+        f5.setInspiredName("Вдохновленная Кхамисс");
+        f5.setInspiredMovementDistance(5);
+        f5.setInspiredDefenceValue(2);
+
+        mDatabase.insert(f5);
+        f5.setWarbandId(warband_26.getId());
+        mDatabase.copyToRealmOrUpdate(f5);
+
+        mDatabase.commitTransaction();
+    }

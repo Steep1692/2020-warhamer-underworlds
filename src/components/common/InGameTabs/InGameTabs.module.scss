@@ -1,0 +1,33 @@
+@import "../../../styles/variables";
+@import "../../../styles/mixins";
+
+.root {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0 2rem;
+  height: 3rem;
+  background-color: #132C2C;
+  padding: 0.25rem 1rem;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    max-width: 3rem;
+    max-height: 80%;
+  }
+}
+
+@include tablet {
+  .root {
+    height: 4.5rem;
+
+    .button {
+      max-width: 4.5rem;
+      max-height: 80%;
+    }
+  }
+}

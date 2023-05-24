@@ -1,0 +1,57 @@
+@import "../../../styles/variables";
+
+.root {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.title {
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #906C3D;
+}
+
+.statistics {
+  flex: 1;
+  color: $color-text-light;
+
+  table {
+    width: 100%;
+
+    thead {
+      font-weight: bold;
+
+      &:first-of-type {
+        td {
+          padding-top: 0;
+        }
+      }
+
+      td {
+        padding-top: 1rem;
+      }
+    }
+
+    tbody {
+      td {
+        &:first-of-type {
+          padding-left: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.bottom {
+  padding: 1rem 0;
+  text-align: center;
+
+  .buttonAccept {
+    width: 100%;
+  }
+}

@@ -1,0 +1,44 @@
+.root {
+  width: 100%;
+  height: 100%;
+  border: none;
+
+  background-color: transparent;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  transition: 0.3s;
+
+  &:not(:disabled) {
+    background-image: var(--src-default);
+
+    &:active {
+      background-image: var(--src-hover);
+    }
+  }
+
+  &:disabled {
+    background-image: var(--src-disabled);
+  }
+
+  &.tiny {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+}
+
+@media  (hover: hover) {
+  .root {
+    &:not(:disabled) {
+      &:hover {
+        background-image: var(--src-hover);
+      }
+    }
+
+    &.tiny {
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+  }
+}
