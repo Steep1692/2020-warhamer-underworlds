@@ -1,2 +1,5 @@
 node_modules
 build
+.idea
+yarn-error.log
+yarn.lock
